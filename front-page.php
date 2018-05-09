@@ -48,7 +48,7 @@ get_header();
             </div>
 
             <div class="studio-about-item-2">
-              <h2 class="text-shadow underline">It's time</h2>
+              <h2 class="text-shadow underline">It's time<br></h2>
               <h2 id="no-mt" class="text-shadow underline">to shine</h2>
               <h3>Let's build your dream site</h3>
             </div>
@@ -158,74 +158,97 @@ get_header();
             </ul>
           </div> <!--  .h-i-w -->
 
-          <div>
-            <img src="http://localhost:8888/bandana-studio/wp-content/uploads/2018/05/Screen-Shot-2018-05-07-at-1.25.17-PM.png" alt="keep scrolling" height="316" width="339">
-            <h5>*</h5>
-            <btn class="button" type="button">view all work</btn>
+          <div class="studio-about-bottom">
+            <div class="studio-about-bottom-item-1">
+              <img src="http://localhost:8888/bandana-studio/wp-content/uploads/2018/05/Screen-Shot-2018-05-07-at-1.25.17-PM.png" alt="keep scrolling" height="316" width="339">
+            </div>
+            <div class="studio-about-bottom-item-2">
+              <h5>*</h5>
+            </div>
+            <div class="studio-about-bottom-item-3">
+              <p>
+                <a class="btn pill" href="#">view all work</a>
+              </p>
+            </div>
           </div>
 
-          <div class="values">
-            <h6>Values</h6>
+          <div class="value">
+            <div class="value-title">
+              <h6>Values</h6>
+            </div>
 
-            <div class="value-item">
+            <div class="value-item-1 value-item">
                 <img src="http://localhost:8888/bandana-studio/wp-content/uploads/2018/05/one-stop-shop.png" alt="one stop shop icon">
                 <h3>One-Stop Shop</h3>
                 <p>As a designer and developer I will take your website from vision to launch without the need of third parties.</p>
             </div>
 
-            <div class="value-item">
+            <div class="value-item-2 value-item">
                 <img src="http://localhost:8888/bandana-studio/wp-content/uploads/2018/05/hassel-free-icon-–-2.png" alt="hassel free icon">
                 <h3>Hassel Free</h3>
-                <p>Through a clear step by step process, I take the technical trickiness out of designing, building and launching a website.</p>
+                <p>Step by step, Bandana Studio takes the trickiness out of designing, building and launching a website.</p>
             </div>
 
-            <div class="value-item">
+            <div class="value-item-3 value-item">
                 <img src="http://localhost:8888/bandana-studio/wp-content/uploads/2018/05/design-icon-–-2.png" alt="design icon">
                 <h3>Stunning Design</h3>
                 <p>Let’s bring your unique vision to life through color, graphics, and responsive pixel perfect design.</p>
             </div>
 
-
-            <btn class="button" type="button">more info</btn>
+            <div class="value-button">
+              <p>
+                <a class="btn pill" href="#">more info</a>
+              </p>
+            </div>
 
           </div> <!-- .values -->
 
           <div class="reviews">
 
-            <div class="review-box">
+            <div class="review-box review-box-one">
               <h6>Reviews</h6>
             </div>
 
-            <div class="review-box">
+            <div class="review-box review-box-two">
               <div class="review-int">
-                <p>“Let’s build a dream website for you. We will be partners in buiilding a gorgeous, functional, operational, creative, unique site that meets your business needs. Let’s build a dream website for you. We will be partners."</p>
-                <h9> - Susie<br> Business Owner</h9>
+                <div class="review-int-1">
+                  <p>“We will be partners in buiilding a gorgeous, functional, operational, creative, unique site that meets your business needs. Let’s build a dream website for you. We will be partners."</p>
+                  <p>- Susie W., <br> <em>Business Owner</em></p>
+                </div>
               </div>
             </div>
 
-            <div class="review-box">
-              <p>insert bandana here </p>
+            <div class="review-box review-box-three">
+              <img src="http://localhost:8888/bandana-studio/wp-content/uploads/2018/05/bandana-one.png" alt="Bandana Illustration">
             </div>
 
-            <div class="review-box">
+            <div class="review-box review-box-four">
               <div class="review-int">
-                <p>“We loved working with Lizzie and Bandana Studio. Our site is more than anything we could have imagined. ”</p>
-                <h9> - Susie<br> Business Owner</h9>
+                <div class="review-int-1">
+                  <p>“We loved working with Lizzie and Bandana Studio. Our site is more than anything we could have imagined."</p>
+                  <p>- Susie W., <br> <em>Business Owner</em></p>
+                </div>
               </div>
             </div>
 
-            <div class="review-box">
-              <p>insert bandana here </p>
+            <div class="review-box review-box-five">
+              <img src="http://localhost:8888/bandana-studio/wp-content/uploads/2018/05/bandana-one.png" alt="Bandana Illustration">
             </div>
 
-            <div class="review-box">
+            <div class="review-box review-box-six">
               <div class="review-int">
-                <p>“We loved working with Lizzie and Bandana Studio. Our site is more than anything we could have imagined. ”</p>
-                <h9> - Susie<br> Business Owner</h9>
+                <div class="review-int-1">
+                  <p>“We loved working with Lizzie and Bandana Studio. Our site is more than anything we could have imagined."</p>
+                  <p>- Susie W., <br> <em>Business Owner</em></p>
+                </div>
               </div>
             </div>
 
-            <btn class="button" type="button">get started</btn>
+            <div class="review-button">
+              <p>
+                <a class="pill btn-dark" href="#">get started</a>
+              </p>
+            </div>
 
           </div> <!-- .reviews -->
 
