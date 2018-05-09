@@ -33,10 +33,10 @@
 							<a href="#">Work</a>
 						</li>
 						<li>
-							<a href="#">Get Started - Web Design</a>
+							<a href="#">Get Started - Design</a>
 						</li>
 						<li>
-							<a href="#">Get Started - Site Maintenance</a>
+							<a href="#">Get Started - Maintenance</a>
 						</li>
 					</ul>
 
@@ -81,7 +81,7 @@
 		</div>
 
 		<div id="site-cr">
-			<h9>&copy; 2018 Bandana Studio<br>Designed by Bandana Studio</h9>
+			&copy 2018 Bandana Studio<br>Designed by Bandana Studio
 		</div>
 
 		</div><!-- .site-info -->

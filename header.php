@@ -18,7 +18,6 @@
 	<link rel="profile" href="http://gmpg.org/xfn/11">
 	<link rel="stylesheet" type="text/css" href="style.css">
 	<link href="https://fonts.googleapis.com/css?family=Nunito:200,400,400i,600,800" rel="stylesheet">
-	<link href="https://fonts.googleapis.com/css?family=Playfair+Display:400,700" rel="stylesheet">
 	<link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400" rel="stylesheet">
 
 	<?php wp_head(); ?>

@@ -27,7 +27,7 @@ get_header();
           <div class="bs-welcome">
             <h1>Bandana Studio</h1>
             <p>a design and web development studio for creative entrepreneurs</p>
-            <p class="hide">let's build the website of your dreams</p>
+						<p id="intro-hide">let's build the website of your dreams</p>
             <h4>Welcome</h4>
           </div>
 
@@ -53,12 +53,12 @@ get_header();
               <h3>Let's build your dream site</h3>
             </div>
 
-            <div class="studio-about-item-3">
-              <img src="http://localhost:8888/bandana-studio/wp-content/uploads/2018/05/Screen-Shot-2018-05-07-at-1.25.17-PM.png" alt="keep scrolling" height="316" width="339">
+						<div class="studio-about-item-4">
+              <img src="http://localhost:8888/bandana-studio/wp-content/uploads/2018/05/flaylayphoto@2x.jpg" alt="keep scrolling" height="316" width="339">
             </div>
 
-            <div class="studio-about-item-4">
-              <img src="http://localhost:8888/bandana-studio/wp-content/uploads/2018/05/Screen-Shot-2018-05-07-at-1.25.17-PM.png" alt="keep scrolling" height="316" width="339">
+            <div class="studio-about-item-3">
+              <img src="http://localhost:8888/bandana-studio/wp-content/uploads/2018/05/img-working.jpg" alt="keep scrolling" height="440" width="324">
             </div>
 
             <div class="studio-about-item-b">
@@ -78,14 +78,108 @@ get_header();
               </p>
             </div>
 
+
+			      <div class="studio-about-bottom-item-1 hide-on-mobile">
+		          <img src="http://localhost:8888/bandana-studio/wp-content/uploads/2018/05/studio-about-bottom@2x.jpg" alt="keep scrolling" height="330" width="370">
+						</div>
+
+
+						<div class="h-i-w hide-on-mobile">
+	            <h6>How it works</h6>
+	            <ul>
+	              <li class="hiw-li">
+	                <div class="hiw-i-1" id="ast-decor">
+	                  *
+	                </div>
+	                <div class="hiw-i-2">
+	                  <h3>Inquiry</h3>
+	                </div>
+	                <div class="hiw-i-3">
+	                  <p>let’s talk shop! tell me about your business. what are your project goals?</p>
+	                </div>
+	              </li>
+
+	              <li class="hiw-li">
+	                <div class="hiw-i-1" id="ast-decor">
+	                  *
+	                </div>
+	                <div class="hiw-i-2">
+	                  <h3>Exploration</h3>
+	                </div>
+	                <div class="hiw-i-3">
+	                  <p>visual inspirations, vibes and overall brand feelings.</p>
+	                </div>
+	              </li>
+
+	              <li class="hiw-li">
+	                <div class="hiw-i-1" id="ast-decor">
+	                  *
+	                </div>
+	                <div class="hiw-i-2">
+	                  <h3>Design</h3>
+	                </div>
+	                <div class="hiw-i-3">
+	                  <p>i’ll jump into creating moodboards and design concepts for your review.</p>
+	                </div>
+	              </li>
+
+	              <li class="hiw-li">
+	                <div class="hiw-i-1" id="ast-decor">
+	                  *
+	                </div>
+	                <div class="hiw-i-2">
+	                  <h3>Development</h3>
+	                </div>
+	                <div class="hiw-i-3">
+	                  <p>development of your custom site begins!</p>
+	                </div>
+	              </li>
+
+	              <li class="hiw-li">
+	                <div class="hiw-i-1" id="ast-decor">
+	                  *
+	                </div>
+	                <div class="hiw-i-2">
+	                  <h3>Revise, Test, Launch</h3>
+	                </div>
+	                <div class="hiw-i-3">
+	                  <p>demo site is reviewed by you, tested by me, and officially launched.</p>
+	                </div>
+	              </li>
+
+	              <li class="hiw-li">
+	                <div class="hiw-i-1" id="ast-decor">
+	                  *
+	                </div>
+	                <div class="hiw-i-2">
+	                  <h3>Post Launch Support</h3>
+	                </div>
+	                <div class="hiw-i-3">
+	                  <p>let’s keep your site in perfect shape over time - maintenance, back-ups, etc.</p>
+	                </div>
+	              </li>
+
+	            </ul>
+	          </div> <!--  .h-i-w -->
+
+	            <div class="studio-about-bottom-item-2 hide-on-mobile">
+	              <h5>*</h5>
+	            </div>
+
+	            <div class="studio-about-bottom-item-3 hide-on-mobile">
+	              <p>
+	                <a class="btn pill" href="#">view all work</a>
+	              </p>
+	            </div>
+
           </div>
 
-          <div class="h-i-w">
+          <div class="h-i-w hide-on-dt">
             <h6>How it works</h6>
             <ul>
               <li class="hiw-li">
-                <div class="hiw-i-1">
-                  <h8>*</h8>
+                <div class="hiw-i-1" id="ast-decor">
+                  *
                 </div>
                 <div class="hiw-i-2">
                   <h3>Inquiry</h3>
@@ -96,8 +190,8 @@ get_header();
               </li>
 
               <li class="hiw-li">
-                <div class="hiw-i-1">
-                  <h8>*</h8>
+                <div class="hiw-i-1" id="ast-decor">
+                  *
                 </div>
                 <div class="hiw-i-2">
                   <h3>Exploration</h3>
@@ -108,8 +202,8 @@ get_header();
               </li>
 
               <li class="hiw-li">
-                <div class="hiw-i-1">
-                  <h8>*</h8>
+                <div class="hiw-i-1" id="ast-decor">
+                  *
                 </div>
                 <div class="hiw-i-2">
                   <h3>Design</h3>
@@ -120,8 +214,8 @@ get_header();
               </li>
 
               <li class="hiw-li">
-                <div class="hiw-i-1">
-                  <h8>*</h8>
+                <div class="hiw-i-1" id="ast-decor">
+                  *
                 </div>
                 <div class="hiw-i-2">
                   <h3>Development</h3>
@@ -132,8 +226,8 @@ get_header();
               </li>
 
               <li class="hiw-li">
-                <div class="hiw-i-1">
-                  <h8>*</h8>
+                <div class="hiw-i-1" id="ast-decor">
+                  *
                 </div>
                 <div class="hiw-i-2">
                   <h3>Revise, Test, Launch</h3>
@@ -144,8 +238,8 @@ get_header();
               </li>
 
               <li class="hiw-li">
-                <div class="hiw-i-1">
-                  <h8>*</h8>
+                <div class="hiw-i-1" id="ast-decor">
+                  *
                 </div>
                 <div class="hiw-i-2">
                   <h3>Post Launch Support</h3>
@@ -158,9 +252,11 @@ get_header();
             </ul>
           </div> <!--  .h-i-w -->
 
-          <div class="studio-about-bottom">
+
+
+          <div class="studio-about-bottom hide-on-dt">
             <div class="studio-about-bottom-item-1">
-              <img src="http://localhost:8888/bandana-studio/wp-content/uploads/2018/05/Screen-Shot-2018-05-07-at-1.25.17-PM.png" alt="keep scrolling" height="316" width="339">
+              <img src="http://localhost:8888/bandana-studio/wp-content/uploads/2018/05/studio-about-bottom@2x.jpg" alt="keep scrolling" height="330" width="370">
             </div>
             <div class="studio-about-bottom-item-2">
               <h5>*</h5>
