@@ -40,7 +40,7 @@ get_header();
         <div class="about-section">
           <div class="studio-about">
             <div class="studio-about-item-1">
-              <img src="http://localhost:8888/bandana-studio/wp-content/uploads/2018/05/Screen-Shot-2018-05-07-at-1.25.17-PM.png" alt="keep scrolling" height="316" width="339">
+              <img src="http://localhost:8888/bandana-studio/wp-content/uploads/2018/05/ipad-test-bs.png" alt="keep scrolling" class="rotateimg100">
             </div>
 
             <div class="studio-about-item-a">
@@ -54,11 +54,11 @@ get_header();
             </div>
 
 						<div class="studio-about-item-4">
-              <img src="http://localhost:8888/bandana-studio/wp-content/uploads/2018/05/flaylayphoto@2x.jpg" alt="keep scrolling" height="316" width="339">
+              <img src="http://localhost:8888/bandana-studio/wp-content/uploads/2018/05/flaylayphoto@2x.jpg" alt="keep scrolling">
             </div>
 
             <div class="studio-about-item-3">
-              <img src="http://localhost:8888/bandana-studio/wp-content/uploads/2018/05/working-together-photo.png" alt="keep scrolling" height="440" width="324">
+              <img src="http://localhost:8888/bandana-studio/wp-content/uploads/2018/05/working-long.png" alt="keep scrolling">
             </div>
 
             <div class="studio-about-item-b">
@@ -77,9 +77,13 @@ get_header();
               </p>
             </div>
 
+						<div class="studio-about-item-8">
+							<h5>*</h5>
+						</div>
+
 
 			      <div class="studio-about-bottom-item-1">
-		          <img src="http://localhost:8888/bandana-studio/wp-content/uploads/2018/05/studio-about-bottom@2x.jpg" alt="keep scrolling" height="330" width="370">
+		          <img src="http://localhost:8888/bandana-studio/wp-content/uploads/2018/05/studio-about-bottom@2x.jpg" alt="keep scrolling">
 						</div>
 
 
@@ -94,7 +98,7 @@ get_header();
 	                  <h3>Inquiry</h3>
 	                </div>
 	                <div class="hiw-i-3">
-	                  <p>let’s talk shop! tell me about your business. what are your project goals?</p>
+	                  <p>let’s talk shop! tell me about your business. what are your goals?</p>
 	                </div>
 	              </li>
 
@@ -118,7 +122,7 @@ get_header();
 	                  <h3>Design</h3>
 	                </div>
 	                <div class="hiw-i-3">
-	                  <p>i’ll jump into creating moodboards and design concepts for your review.</p>
+	                  <p>i’ll jump into creating design concepts for your review.</p>
 	                </div>
 	              </li>
 
@@ -142,7 +146,7 @@ get_header();
 	                  <h3>Revise, Test, Launch</h3>
 	                </div>
 	                <div class="hiw-i-3">
-	                  <p>demo site is reviewed by you, tested by me, and officially launched.</p>
+	                  <p>demo site is reviewed by you, tested by me, and launched.</p>
 	                </div>
 	              </li>
 
@@ -154,22 +158,26 @@ get_header();
 	                  <h3>Post Launch Support</h3>
 	                </div>
 	                <div class="hiw-i-3">
-	                  <p>let’s keep your site in perfect shape over time - maintenance, back-ups, etc.</p>
+	                  <p>let’s keep your site in perfect shape over time.</p>
 	                </div>
 	              </li>
 
 	            </ul>
 	          </div> <!--  .h-i-w -->
 
-	            <div class="studio-about-bottom-item-2">
-	              <h5>*</h5>
-	            </div>
+						<div class="studio-about-item-7">
+							<h5>*</h5>
+						</div>
 
-	            <div class="studio-about-bottom-item-3">
+						<div class="studio-about-bottom-item-2">
+	              <h5>*</h5>
+	          </div>
+
+	          <div class="studio-about-bottom-item-3">
 	              <p>
 	                <a class="btn pill" href="#">view all work</a>
 	              </p>
-	            </div>
+	          </div>
 
           </div> <!-- .studio-about -->
 

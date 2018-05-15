@@ -888,13 +888,13 @@ a:hover, a:active {
 
 /*hide header on front-page*/
 @media screen and (max-width: 4000px) {
-  #masthead, #intro-hide, .studio-about-item-4 {
+  #masthead, #intro-hide, .studio-about-item-4, .studio-about-item-7, .studio-about-item-8 {
     display: none;
   }
 }
 
-/* Front page */
-/* Front page - Intro Section */
+/* Mobile Front page */
+/* Mobile Front page - Intro Section */
 
 div.intro-section {
 	height: 100vh;
@@ -1009,6 +1009,13 @@ h1 {
 			.studio-about-item-1 {
 				justify-self: end;
 			}
+						.rotateimg100 {
+								-webkit-transform:rotate(100deg);
+								-moz-transform: rotate(100deg);
+								-ms-transform: rotate(100deg);
+								-o-transform: rotate(100deg);
+								transform: rotate(100deg);
+						}
 			.studio-about-item-1, .studio-about-item-2, .studio-about-item-6,
 			.studio-about-bottom-item-3, .studio-about-item-5 {
 				padding-top: 36px;
@@ -1504,66 +1511,111 @@ h1 {
 	margin-top: 2px;
 }
 
-/*.studio-about-item-6 {
-	grid-area: desk-words;
-}*/
 .studio-about {
-	grid-template-columns: auto repeat(2, minmax(300px, 600px)) auto;
+	grid-template-columns: repeat(12, minmax(64px, 80px));
 	grid-template-rows: repeat(14,auto);
-	grid-template-areas:
-	". intro-words intro ."
-	". desk desk-words ."
-	". get-started work ."
-	". h-i-w . ."
-	". h-i-w . ."
-	". h-i-w . ."
-	". h-i-w view-work ."
-	". view-work-button view-work-button .";
 }
-		.studio-about-item-2 {
-			place-self: center;
-		}
-		.studio-about-item-a {
-			align-self: end;
-		}
-					.studio-about-item-a h5 {
-						font-size: 15em;
-						margin-top: 0px;
-						line-height:1em;
-					}
-		.studio-about-item-3{
-			align-self: center;
-		}
-					.studio-about-item-1 img, .studio-about-item-3 img, .studio-about-item-4 img, .studio-about-bottom-item-1 img {
-						width: 100%;
-					}
-		.studio-about-item-4 {
-			display: block;
-			align-self: start;
-		}
-		.studio-about-item-5 {
-			padding-right: 30px;
-			align-self: center;
-			padding-left: 30px;
-		}
-					.studio-about-item-5 p {
-						font-size: .875em;
-					}
-		.studio-about-item-6 {
-			place-self: center;
-		}
 
-		.h-i-w {
-			display: inline-grid;
-			grid-template-columns: auto 220px auto;
-			grid-template-rows: 10px 100px auto 30px;
-		}
-				.h-i-w h6 {
-					font-size: 2em;
-				}
-				.h-i-w p {
-					font-size: .9em;
-				}
+.studio-about-item-1, .studio-about-item-2 {
+	padding-top: 48px;
+	padding-bottom: 120px;
+}
+.studio-about p {
+	font-size: .8125em;
+}
+
+								.studio-about-item-1 {
+									grid-column: 7/13;
+									grid-row: 1;
+								}
+								.studio-about-item-a {
+									grid-column: 4/7;
+									grid-row: 1;
+									align-self: center;
+								}
+								.studio-about-item-2 {
+									grid-column: 2/6;
+									grid-row: 1;
+									align-self: center;
+								}
+											.studio-about-item-2 h3 {
+												font-size: .8125em;
+											}
+								.studio-about-item-3 {
+									grid-column: 1/6;
+									grid-row: 2/5;
+									display: inline-grid;
+								}
+										.studio-about-item-3 img {
+											align-self: end;
+										}
+								.studio-about-item-4 {
+									grid-column: 5/12;
+									grid-row: 4/6;
+									display: block;
+									align-self: start;
+								}
+								.studio-about-item-5 {
+									grid-column: 7/12;
+									grid-row: 2/3;
+									padding-top: 20px;
+									padding-bottom: 0px;
+								}
+									.studio-about-item-5 h3 {
+										font-size: .8125em;
+									}
+								.studio-about-item-6 {
+									grid-column: 7/10;
+									grid-row: 3/4;
+									justify-self: start;
+									padding-top: 0px;
+									padding-bottom: 20px;
+								}
+								.studio-about-item-b {
+									grid-column: 7/11;
+									grid-row: 2/3;
+								}
+								.studio-about-item-7 {
+									grid-column: 5/7;
+									grid-row: 4/6;
+									place-self: end;
+								}
+											.studio-about-item-7 h5 {
+												color: #F5E2D4;
+											}
+								.studio-about-item-8 {
+									grid-column: 10/13;
+									grid-row: 6/7;
+									justify-self: center;
+								}
+
+								.h-i-w {
+									grid-column: 1/7;
+									grid-row: 5/9;
+									display: inline-grid;
+									grid-template-columns: auto 220px auto;
+									grid-template-rows: 30px 100px auto 30px;
+									}
+													.h-i-w h6 {
+														font-size: 2em;
+													}
+													.h-i-w p {
+														font-size: .9em;
+													}
+								.studio-about-bottom-item-1 {
+									grid-column: 7/13;
+									grid-row: 8/10;
+								}
+								.studio-about-bottom-item-2 {
+									display: block;
+									grid-column: 1/5;
+									grid-row: 9/10;
+								}
+								.studio-about-bottom-item-3 {
+									grid-column: 1/13;
+									grid-row: 10/11;
+								}
+
 
 
 /* Tablet Front page - Button */
@@ -1686,7 +1738,9 @@ h1 {
 }
 
 
-}
+} /* End of Tablet Styles */
+
+
 
 @media screen and (min-width: 940px) {
   /*Desktop styles here!*/
@@ -1695,72 +1749,102 @@ h1 {
 /*Desktop Front Page Styles*/
 
 .intro-section {
+	grid-template-columns: minmax(80px,auto) minmax(400px,1920px) minmax(100px,auto);
+	grid-template-rows: minmax(80px,100px) minmax(1fr,auto) minmax(50px,100px);
+}
+			#nav-icon {
+				grid-row: 2;
+				grid-column: 2;
+			}
+			.bs-welcome {
+				padding-top: 0%;
+				align-self: end;
+				grid-column: 2;
+				grid-row: 2;
+			}
+			#scroll-triangle {
+				grid-column: 2;
+				grid-row: 3;
+				display: inline-grid;
+				justify-items: center;
+				align-items: end;
+				padding-bottom: 20px;
+			}
+
+/*.intro-section {
 	grid-template-columns: 100px minmax(400px,1400px) auto;
 	grid-template-rows: 100px auto minmax(1fr,auto) auto;
-}
+}*/
 
 /*Desktop Studio About Styles*/
 
-
 .studio-about {
-	display: grid;
-	grid-template-columns: auto repeat(2, minmax(200px, 500px)) auto;
+	grid-template-columns: auto repeat(12, minmax(80px, 100px)) auto;
 	grid-template-rows: repeat(14,auto);
-	/*grid-template-areas:
-	". . . intro-words . . . . intro . . . . ."
-	". desk desk desk desk desk . desk-words desk-words desk-words desk-words desk-words . ."
-	". desk desk desk desk work work work work work work work . ."
-	". h-i-w h-i-w h-i-w h-i-w  work work work work work work work . ."
-	". h-i-w h-i-w h-i-w h-i-w . . . . . . . . ."
-	". h-i-w h-i-w h-i-w h-i-w . . . . . . . . ."
-	". h-i-w h-i-w h-i-w h-i-w view-work view-work view-work view-work view-work . . . . ."
-	". view-work-button view-work-button view-work-button view-work-button view-work-button view-work-button view-work-button view-work-button view-work-button view-work-button view-work-button view-work-button .";
-	*/
 }
-		/*.studio-about-item-2 {
-			place-self: center;
-		}
-		.studio-about-item-a {
-			align-self: end;
-		}
-					.studio-about-item-a h5 {
-						font-size: 15em;
-						margin-top: 0px;
-						line-height:1em;
-					}
-		.studio-about-item-3{
-			align-self: center;
-		}
-					.studio-about-item-3 img, .studio-about-item-4 img, .studio-about-bottom-item-1 img {
-						width: 100%;
-					}
-		.studio-about-item-4 {
-			display: block;
-			align-self: start;
-		}
-		.studio-about-item-5 {
-			padding-right: 30px;
-			align-self: center;
-			padding-left: 30px;
-		}
-					.studio-about-item-5 p {
-						font-size: .875em;
-					}
-		.studio-about-item-6 {
-			place-self: center;
-		}
 
-		.h-i-w {
-			display: inline-grid;
-			grid-template-columns: auto 220px auto;
-			grid-template-rows: 10px 100px auto 30px;
-		}
-				.h-i-w h6 {
-					font-size: 2em;
-				}
-				.h-i-w p {
-					font-size: .9em;
-				}
+.studio-about p {
+	font-size: 1em;
+}
+
+								.studio-about-item-1 {
+									grid-column: 8/13;
+									padding-top: 120px;
+								}
+								.studio-about-item-a {
+									grid-column: 5/7;
+									justify-self: center;
+									padding-top: 100px;
+									padding-left: 100px;
+								}
+								.studio-about-item-2 {
+									grid-column: 4/7;
+									justify-self: center;
+								}
+											.studio-about-item-2 h3 {
+												font-size: 1em;
+											}
+								.studio-about-item-3 {
+									grid-column: 3/8;
+								}
+								.studio-about-item-4 {
+									grid-column: 7/14;
+								}
+								.studio-about-item-5 {
+									grid-column: 9/13;
+									padding-top: 60px;
+								}
+									.studio-about-item-5 h3 {
+										font-size: 1em;
+									}
+								.studio-about-item-6 {
+									grid-column: 9/12;
+								}
+								.studio-about-item-b {
+									grid-column: 8/12;
+								}
+								.studio-about-item-7 {
+									grid-column: 6/8;
+									justify-self: center;
+									align-self: center;
+									padding-top: 90%;
+								}
+								.studio-about-item-8 {
+									grid-column: 11/14;
+								}
+
+								.h-i-w {
+									grid-column: 2/7;
+									}
+								.studio-about-bottom-item-1 {
+									grid-column: 7/13;
+								}
+								.studio-about-bottom-item-2 {
+									grid-column: 2/6;
+								}
+								.studio-about-bottom-item-3 {
+									grid-column: 2/14;
+								}
 
 /*Desktop Reviews Styles*/
 .reviews {
@@ -1796,6 +1880,8 @@ h1 {
 		.review-button{
 			grid-column: 2/5;
 			grid-row: 4;
+			padding-top: 5%;
+			padding-bottom: 5%;
 		}
 /* Desktop Value Styles*/
 .value-title{
@@ -1805,7 +1891,7 @@ h1 {
 
 /* Desktop Footer Styles*/
 .site-info {
-	grid-template-columns: auto repeat(12,minmax(60px,120px)) auto;
+	grid-template-columns: minmax(40px,auto) repeat(12,minmax(60px,120px)) minmax(40px,auto);
 	grid-template-rows: 36px 200px 100px;
 }
 		#footer-menu {
