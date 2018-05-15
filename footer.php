@@ -33,10 +33,10 @@
 							<a href="#">Work</a>
 						</li>
 						<li>
-							<a href="#">Get Started - Design</a>
+							<a href="#">Web Design</a>
 						</li>
 						<li>
-							<a href="#">Get Started - Maintenance</a>
+							<a href="#">Site Maintenance</a>
 						</li>
 					</ul>
 
