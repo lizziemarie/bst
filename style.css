@@ -1212,7 +1212,7 @@ a.pill.btn-dark {
 }
 
 /* Front page - Reviews */
-.reviews {
+.reviews, .gs-faq {
 	display: grid;
 	grid-template-rows: 64px 80vw 80vw 80vw 80vw 80vw 80vw 40vw;
 	grid-template-columns: 10vw 80vw 10vw;;
@@ -1368,6 +1368,131 @@ a.pill.btn-dark {
 					font-size: .8125em;
 				}
 
+/* Mobile Contact Page: Contact Section */
+.contact-main {
+	background-color: #BE9E96;
+}
+.contact {
+	background-color: #F7EDE5;
+	display: grid;
+	grid-template-columns: 10vw 80vw 10vw;;
+	grid-template-rows: repeat(2,auto);
+	justify-items: center;
+}
+		.contact h6 {
+			grid-column: 2/3;
+			text-align: center;
+			padding-top: 36px;
+		}
+		.contact p {
+			grid-column: 2/3;
+			text-align: center;
+		}
+
+#break {
+	height: 120px;
+}
+
+/* Mobile Contact Page: Contact Section */
+.getstarted-main {
+	background-color: #F7EDE5;
+}
+
+/* Mobile Get Started Design Page: Intro*/
+/* Mobile Get Started Design Page: Included*/
+.gs-included {
+	background-color: #fff;
+	display: grid;
+	grid-template-columns: 10vw 80vw 10vw;;
+	grid-template-rows: auto;
+}
+		.gs-included-item-a {
+			grid-column: 2/3;
+		}
+				.gs-included-item-a h5 {
+					color: #EDD6D0;
+				}
+		.gs-included-item-2 {
+			grid-column: 2/3;
+		}
+						.gs-included ul {
+							list-style: none;
+							padding-left:0px;
+							margin-left: 0px;
+						}
+		.gs-included-item-a {
+			grid-column: 2/3;
+		}
+/* Mobile Get Started Design Page: Process*/
+.gs-process {
+	background-color: #F4F4F4;
+	display: inline-grid;
+	grid-template-columns: 10vw 80vw 10vw;;
+	grid-row-gap: 20px;
+	grid-template-rows: 36px 100px auto 36px;
+}
+
+#ast-decor-lg {
+	color: #EDD6D0;
+	font-family: 'Nunito';
+	font-size: 3em;
+}
+
+.gs-process h6 {
+	grid-row: 2;
+	grid-column:2/3;
+	justify-self: center;
+	align-self: center;
+}
+.gs-process h3 {
+	font-weight: bold;
+	font-size: 1.125em;
+}
+
+.gs-process p, {
+	font-size: 0.875em;
+}
+
+.gs-process ul {
+	grid-row: 3/4;
+	grid-column: 2/3;
+	list-style: none;
+	padding-left:0px;
+	margin-left: 0px;
+	place-self: center;
+	display: grid;
+	grid-template-columns: 80vw;
+	grid-template-rows: repeat(6,auto);
+}
+			.process-li {
+				display: grid;
+				grid-template-columns: 1fr 40px auto 1fr;
+				grid-template-rows: 30px 1fr;
+			}
+					.process-i-1 {
+						place-self: center;
+						grid-column: 2;
+						padding-top: 25px;
+					}
+					.process-i-2 {
+						align-self: start;
+						grid-column: 3;
+					}
+					.process-i-3 {
+							grid-column: 3/4;
+					}
+
+/* Mobile Get Started Design Page: FAQ*/
+
+.gs-faq h6 {
+	padding-left: 5%;
+	padding-right: 5%;
+	text-align: center;
+}
+
+.gs-faq p, .gs-faq h3 {
+	font-size: 1.35em;
+}
 
 /* Footer */
 /* Footer Instagram */
@@ -1786,7 +1911,7 @@ h1 {
 
 
 /* Tablet Front Page: Reviews */
-.reviews {
+.reviews, .gs-faq {
 	grid-template-rows: 64px 40vw 40vw 40vw auto;
 	grid-template-columns: auto 40vw 40vw auto;
 	grid-row-gap: 2vw;
@@ -1878,6 +2003,17 @@ h1 {
 	grid-row-gap: 2vw;
 	grid-column-gap: 2vw;
 }
+
+/* Tablet Contact Page: Contact */
+
+.contact {
+	grid-template-columns: auto 400px auto;
+	margin: 0px 20%;
+}
+		.contact p {
+			padding-left: 10%;
+			padding-right: 10%;
+		}
 /*Footer Styles*/
 /* Instagram*/
 #text-2.widget.widget_text {
@@ -1999,7 +2135,7 @@ h1 {
 								}
 
 /*Desktop Reviews Styles*/
-.reviews {
+.reviews, .gs-faq {
 	grid-template-rows: 120px repeat(2, minmax(250px,300px)) auto;
 	grid-template-columns: auto repeat(3, minmax(250px,300px)) auto;
 	grid-row-gap: 2vw;
