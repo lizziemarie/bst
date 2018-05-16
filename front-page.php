@@ -73,7 +73,7 @@ get_header();
 
             <div class="studio-about-item-6">
               <p>
-                <a class="btn pill" href="#">get started</a>
+                <a class="btn pill" href="/bandana-studio/about/">get started</a>
               </p>
             </div>
 
@@ -207,7 +207,7 @@ get_header();
 
             <div class="value-button">
               <p>
-                <a class="btn pill" href="#">more info</a>
+                <a class="btn pill" href="/bandana-studio/about">more info</a>
               </p>
             </div>
 
@@ -215,46 +215,46 @@ get_header();
 
           <div class="reviews">
 
-            <div class="review-box review-box-one">
+            <div class="grid-box grid-box-one">
               <h6>Reviews</h6>
             </div>
 
-            <div class="review-box review-box-two">
-              <div class="review-int">
-                <div class="review-int-1">
+            <div class="grid-box grid-box-two">
+              <div class="grid-int">
+                <div class="grid-int-1">
                   <p>“We will be partners in buiilding a gorgeous, functional, operational, creative, unique site that meets your business needs. Let’s build a dream website for you. We will be partners."</p>
                   <p>- Susie W., <br> <em>Business Owner</em></p>
                 </div>
               </div>
             </div>
 
-            <div class="review-box review-box-three">
+            <div class="grid-box grid-box-three">
               <img src="http://localhost:8888/bandana-studio/wp-content/uploads/2018/05/bandana-one.png" alt="Bandana Illustration">
             </div>
 
-            <div class="review-box review-box-four">
-              <div class="review-int">
-                <div class="review-int-1">
+            <div class="grid-box grid-box-four">
+              <div class="grid-int">
+                <div class="grid-int-1">
                   <p>“We loved working with Lizzie and Bandana Studio. Our site is more than anything we could have imagined."</p>
                   <p>- Susie W., <br> <em>Business Owner</em></p>
                 </div>
               </div>
             </div>
 
-            <div class="review-box review-box-five">
+            <div class="grid-box grid-box-five">
               <img src="http://localhost:8888/bandana-studio/wp-content/uploads/2018/05/bandana-one.png" alt="Bandana Illustration">
             </div>
 
-            <div class="review-box review-box-six">
-              <div class="review-int">
-                <div class="review-int-1">
+            <div class="grid-box grid-box-six">
+              <div class="grid-int">
+                <div class="grid-int-1">
                   <p>“We loved working with Lizzie and Bandana Studio. Our site is more than anything we could have imagined."</p>
                   <p>- Susie W., <br> <em>Business Owner</em></p>
                 </div>
               </div>
             </div>
 
-            <div class="review-button">
+            <div class="grid-button">
               <p>
                 <a class="pill btn-dark" href="#">get started</a>
               </p>
