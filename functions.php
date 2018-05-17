@@ -158,3 +158,24 @@ require get_template_directory() . '/inc/customizer.php';
 if ( defined( 'JETPACK__VERSION' ) ) {
 	require get_template_directory() . '/inc/jetpack.php';
 }
+
+//Custom post types functions
+// Create a case study custom post type
+
+ function create_custom_post_types() {
+    register_post_type( 'case_studies',
+        array(
+            'labels' => array(
+                'name' => __( 'Case Studies' ),
+                'singular_name' => __( 'Case Study' )
+            ),
+            'public' => true,
+            'has_archive' => true,
+            'rewrite' => array( 'slug' => 'case-studies' ),
+        )
+    );
+
+}
+
+//Hook this custom type function into the theme
+add_action( 'init', 'create_custom_post_types' );

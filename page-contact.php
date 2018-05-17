@@ -17,12 +17,18 @@ get_header();
 <div id="primary" class="content-area">
 	<main id="main" class="site-main contact-main">
 
-      <div class="contact">
-        <h6>Contact</h6>
-        <p> I can't wait to hear from you! Please fill out the form and I'll be in touch.
-        <br> <br>Email: <em>hello@bandanastudio.co</em></p>
+		<?php
+        // Start the loop.
+        while ( have_posts() ) : the_post();
 
-      </div> <!-- .contact-->
+            // Include the page content template.
+            get_template_part( 'template-parts/content', 'page' );
+
+
+            // End of the loop.
+        endwhile;
+        ?>
+
       <div id="break">
       </div>
 

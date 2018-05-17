@@ -47,20 +47,20 @@ get_header();
                 <h3>Design & Development</h3>
                 <h6> What's Included </h6>
                 <ul>
-                  <li><strong>Design</strong></li>
+                  <li><strong>Design:</strong></li>
                   <li>Moodboard</li>
                   <li>Design Mockups of all website pages in 3 responsive design sizes (desktop, tablet, mobile)</li>
-                  <li>2 rounds of design revisions</li>
+                  <li>Two rounds of design revisions</li>
                 </ul>
                 <ul>
-                  <li><strong>Development</strong></li>
+                  <li><strong>Development:</strong></li>
                   <li>Installation of the WordPress Content Management System</li>
                   <li>Installation of theme</li>
                   <li>Development of premium theme or custom theme depending on your business needs</li>
                   <li>Installation and configuration of plugins relative to your theme</li>
                 </ul>
                 <ul>
-                  <li><strong>Communication</strong></li>
+                  <li><strong>Communication:</strong></li>
                   <li>Consultation, proposal, and on-boarding</li>
                   <li>Questionnaires and pinterest inspiration boards</li>
                   <li>File review and deliivery</li>
@@ -72,7 +72,7 @@ get_header();
 
               <div class="gs-included-item-3">
                 <p>
-                  <a class="btn pill" href="/bandana-studio/about/">view all work</a>
+                  <a class="btn-dark pill" href="/bandana-studio/about/">view all work</a>
                 </p>
               </div>
       </div> <!-- .gs-included -->
@@ -208,6 +208,22 @@ get_header();
           </div>
       </div> <!-- .gs-faq -->
 
+
+      <div class="gs-contact">
+          <h6>Get Started</h6>
+          <p>If you’re interested in getting your new website started, please fill out the contact form below so we can schedule a quick call and dig into what you’re looking for. We’ll ask you a few introductory questions to assess your needs while we look at our schedules to see if we’re a fit! </p>
+					<?php
+			        // Start the loop.
+			        while ( have_posts() ) : the_post();
+
+			            // Include the page content template.
+			            get_template_part( 'template-parts/content', 'page' );
+
+
+			            // End of the loop.
+			        endwhile;
+			        ?>
+      </div> <!-- .gs-contact -->
 
     </div> <!-- .get-started -->
 
