@@ -37,7 +37,7 @@ get_header();
 
         <div class="about-item-3">
           <p>
-            <a class="btn pill" href="#">get started</a>
+            <a class="btn pill" href="/bandana-studio/startdesign">get started</a>
           </p>
         </div>
       </div> <!-- .about -->
@@ -52,7 +52,7 @@ get_header();
               <h3>Website Design and Development</h3>
               <p>Go from “Meh,” to “Money!” with a custom WordPress site that attracts your ideal audience, blows up conversion rates, and skyrockets traffic. With full site installation and support, we take your simple seed or idea and breathe functionality, practicality, and optimization through it so you can run forward with a truly inspired new site.</p>
               <p>
-                <a class="btn pill" href="#">get started</a>
+                <a class="btn pill" href="/bandana-studio/startdesign">get started</a>
               </p>
           </div>
 
@@ -61,7 +61,7 @@ get_header();
               <h3>Website Maintenance</h3>
               <p>Go from “Meh,” to “Money!” with a custom WordPress site that attracts your ideal audience, blows up conversion rates, and skyrockets traffic. With full site installation and support, we take your simple seed or idea and breathe functionality, practicality, and optimization through it so you can run forward with a truly inspired new site.</p>
               <p>
-                <a class="btn pill" href="#">get started</a>
+                <a class="btn pill" href="/bandana-studio/sitemaintenance">get started</a>
               </p>
           </div>
 

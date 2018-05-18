@@ -29,7 +29,7 @@ get_header();
         endwhile;
         ?>
 
-      <div id="break">
+      <div class="break">
       </div>
 
 	 </main><!-- #main -->

@@ -73,7 +73,7 @@ get_header();
 
             <div class="studio-about-item-6">
               <p>
-                <a class="btn pill" href="/bandana-studio/about/">get started</a>
+                <a class="btn pill" href="/bandana-studio/startdesign/">get started</a>
               </p>
             </div>
 
@@ -175,7 +175,7 @@ get_header();
 
 	          <div class="studio-about-bottom-item-3">
 	              <p>
-	                <a class="btn pill" href="#">view all work</a>
+	                <a class="btn pill" href="/bandana-studio/case-studies">view all work</a>
 	              </p>
 	          </div>
 
@@ -229,7 +229,7 @@ get_header();
             </div>
 
             <div class="grid-box grid-box-three">
-              <img src="http://localhost:8888/bandana-studio/wp-content/uploads/2018/05/bandana-one.png" alt="Bandana Illustration">
+              <img src="http://localhost:8888/bandana-studio/wp-content/uploads/2018/05/Bandana-Studio-2.png" alt="Bandana Illustration">
             </div>
 
             <div class="grid-box grid-box-four">
@@ -256,7 +256,7 @@ get_header();
 
             <div class="grid-button">
               <p>
-                <a class="pill btn-dark" href="#">get started</a>
+                <a class="pill btn-dark" href="/bandana-studio/startdesign">get started</a>
               </p>
             </div>
 

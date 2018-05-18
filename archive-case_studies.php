@@ -16,25 +16,28 @@ get_header();
 
 
 <div id="primary" class="content-area">
-  <main id="main" class="site-main">
+  <main id="main" class="site-main work-main">
       <div class="work">
         <h6>Work</h6>
       <?php while ( have_posts() ) : the_post();
           $site_image = get_field('site_image');
-          $size = "medium";?>
+          $size = 'full';?>
 
-        <article class="case-study">
-              <div class="case-study-images">
+
+        <div class="case-study-images">
                 <a href="<?php the_permalink(); ?>">
                   <?php if($site_image) {
                   echo wp_get_attachment_image( $site_image, $size );
                   } ?>
                 </a>
-              </div>
-        </article>
+        </div>
 
       <?php endwhile; // end of the loop. ?>
     </div> <!-- .work -->
+
+    <div class="break">
+    </div>
+
   </main><!-- #main -->
 </div><!-- #primary -->
 

@@ -1406,7 +1406,7 @@ a.pill.btn-dark {
 			margin: 0px;
 		}
 
-#break {
+.break {
 	height: 120px;
 }
 
@@ -1584,6 +1584,27 @@ a.pill.btn-dark {
 }
 
 /* Mobile Work Page */
+.work-main {
+	background-color: #BE9E96;
+}
+
+.work {
+	display: grid;
+	grid-template-columns: 10vw 80vw 10vw;
+	grid-template-rows: 120px repeat(7,auto);
+}
+		.work h6 {
+			grid-column: 2/3;
+			align-self: center;
+		}
+		.case-study-images {
+			grid-column: 2/3;
+			padding: 10px 0px;
+		}
+			.case-study-iumages a img {
+					width: 100%;
+				  height: auto;
+			}
 
 /* Mobile Project Page */
 .project {
@@ -1616,7 +1637,7 @@ a.pill.btn-dark {
 					grid-column: 2/3;
 					grid-row: 2/3;
 				}
-						.case-study-image img {
+						.case-study-image img, .case-study-images img {
 							box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.2), 0 3px 6px 0 rgba(0, 0, 0, 0.19);
 						}
 				.view-work-button {
@@ -1731,7 +1752,7 @@ a.pill.btn-dark {
 }
 
 
-
+/* End of Mobile Styles */
 
 /*--------------------------------------------------------------
 ## Posts and pages
@@ -2270,7 +2291,15 @@ h1 {
 			padding-right: 10%;
 		}
 
-/* Tablet Project Page */
+/* Tablet Work Page */
+	.work {
+		grid-template-columns: minmax(20px,60px) repeat(2,1fr) minmax(20px,60px);
+		grid-column-gap: 1em;
+	}
+
+  	.work div.case-study-images:nth-of-type(even){
+			grid-column: 3/4;
+		}
 
 /* Tablet Project Page */
 
@@ -2626,6 +2655,10 @@ h1 {
 		}
 
 /* Desktop Work Page */
+.work {
+	grid-template-columns: minmax(100px,auto) repeat(2,minmax(300px,550px)) minmax(100px,auto);
+}
+
 
 /* Desktop Project Page */
 

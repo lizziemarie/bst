@@ -60,7 +60,7 @@ get_header();
 
               <div class="gs-included-item-3">
                 <p>
-                  <a class="btn-dark pill" href="/bandana-studio/about/">contact us</a>
+                  <a class="btn-dark pill" href="/bandana-studio/contact/">contact us</a>
                 </p>
               </div>
       </div> <!-- .gs-included -->
