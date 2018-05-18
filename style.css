@@ -1582,6 +1582,83 @@ a.pill.btn-dark {
 .get-started-m-main {
 	background-color: #DDC6C0;
 }
+
+/* Mobile Work Page */
+
+/* Mobile Project Page */
+.project {
+	background-color: #F7EDE5;
+}
+		.case-study {
+			display: grid;
+			grid-template-columns: 10vw 80vw 10vw;
+			grid-template-rows: 36px auto auto auto 36px;
+		}
+				.case-study h6, .case-study p, .case-study h3 {
+					color: #13130D;
+				}
+				.case-study-info {
+					grid-column: 2/3;
+					grid-row: 3/4;
+					padding-top: 20px;
+					padding-bottom: 30px;
+				}
+						h3#client-site, p#client-site {
+							display: inline-block;
+						}
+						h3#client-site {
+							letter-spacing: 1px;
+						}
+						p#client-site {
+							padding-right: 10px;
+						}
+				.case-study-image {
+					grid-column: 2/3;
+					grid-row: 2/3;
+				}
+						.case-study-image img {
+							box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.2), 0 3px 6px 0 rgba(0, 0, 0, 0.19);
+						}
+				.view-work-button {
+					grid-column: 2/3;
+					grid-row: 4/5;
+					place-self: center;
+				}
+
+				/* project button */
+				.btn-large{
+					text-decoration:none;
+					color:#333333;
+					font-size:18px;
+					padding:15px;
+					line-height:32px;
+					height: auto;
+					width: 100%;
+					display:inline-block;
+					text-align: center;
+					background-color:#BE9E96;
+				}
+				.btn-large:hover{
+					background-color:#fff;
+				}
+				.btn-large.pill-large{
+				  -webkit-border-radius: 16px;
+				  -moz-border-radius: 16px;
+				  border-radius: 16px;
+				}
+
+				/* horizontal line */
+					hr {
+					    display: block;
+					    height: 1px;
+					    border: 0;
+					    border-top: 8px solid #BE9E96;
+					    margin: 1em 0 2em;
+					    padding: 0px;
+					}
+					hr#space-hr {
+						margin: 3em 0 2em;
+					}
 /* Footer */
 /* Footer Instagram */
 
@@ -2193,6 +2270,33 @@ h1 {
 			padding-right: 10%;
 		}
 
+/* Tablet Project Page */
+
+/* Tablet Project Page */
+
+.case-study {
+	display: grid;
+	grid-template-columns: 30px repeat(2,1fr) 30px;
+	grid-template-rows: 60px auto auto 60px;
+}
+
+		.case-study-info {
+				grid-column: 2/3;
+				grid-row: 2/3;
+				padding-right: 20px;
+		}
+
+		.case-study-image {
+				grid-column: 3/4;
+				grid-row: 2;
+				padding-left: 20px;
+		}
+		.view-work-button {
+				grid-column: 2/4;
+				grid-row: 3/4;
+				padding: 30px 0px;
+		}
+
 /*Footer Styles*/
 /* Instagram*/
 #text-2.widget.widget_text {
@@ -2519,6 +2623,21 @@ h1 {
 		.gs-contact p {
 			padding-left: 20%;
 			padding-right: 20%;
+		}
+
+/* Desktop Work Page */
+
+/* Desktop Project Page */
+
+.case-study {
+	display: grid;
+	grid-template-columns: minmax(100px,auto) repeat(2,minmax(300px,550px)) minmax(100px,auto);
+	grid-template-rows: 100px auto auto 100px;
+	grid-column-gap: 60px;
+}
+
+		.view-work-button {
+				padding: 180px 0px 30px;
 		}
 
 /* Desktop Footer Styles*/

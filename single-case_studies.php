@@ -17,41 +17,42 @@ get_header();
 
 <div id="primary" class="content-area">
   <main id="main" class="site-main">
+    <div class="project">
+      <?php while ( have_posts() ) : the_post();
+        $client_website = get_field('client_website');
+        $client_testimonial = get_field('client_testimonial');
+        $site_image = get_field('site_image');
+        $size = "full"; ?>
 
-    <?php while ( have_posts() ) : the_post();
-      $client_website = get_field('client_website');
-      $client_testimonial = get_field('client_testimonial');
-      $site_image = get_field('site_image');
-      $size = "full"; ?>
-
-      <article class="case-study">
-            <aside class="case-study-sidebar">
-                <h6><?php the_title(); ?></h6>
-                <p><em>Website:</em><?php echo $client_website; ?></p>
-                <div class="underline">
-                </div>
-                <h3>From the Client:</h3>
-                <p><?php echo $client_testimonial; ?></p>
-
-                <div class="case-study-button">
+        <article class="case-study">
+                  <div class="case-study-info">
+                    <h6><?php the_title(); ?></h6>
+                    <p id="client-site"><em>Website: </em><h3 id="client-site"><strong><?php echo $client_website; ?></strong></h3>
+                    <hr></hr>
+                    <h3 id="testimonial"><strong>From the Client:</strong></h3>
+                    <p><?php echo $client_testimonial; ?></p>
                     <p>
-                      <a class="btn-large large-pill" href="<?php echo $client_website; ?>"><em>See the website: </em><br><h3><?php echo $client_website; ?></h3></a>
+                        <a class="btn-large pill-large" href="<?php echo $client_website; ?>"><em>See the website: </em><br><strong><?php echo $client_website; ?></strong></a>
                     </p>
-                </div>
+                    <hr id="space-hr"></hr>
+                  </div>
 
-            </aside>
+                  <div class="case-study-image">
+                      <?php if($site_image) {
+                        echo wp_get_attachment_image( $site_image, $size );
+                      } ?>
+                  </div>
 
+                  <div class="view-work-button">
+                    <p>
+                      <a class="btn pill" href="#">view all work</a>
+                    </p>
+                  </div> <!-- .view-work-button -->
+        </article>
 
-            <div class="case-study-images">
-                <?php if($site_image) {
-                  echo wp_get_attachment_image( $site_image, $size );
-                } ?>
+      <?php endwhile; // end of the loop. ?>
 
-            </div>
-
-      </article>
-
-    <?php endwhile; // end of the loop. ?>
+    </div> <!-- .project -->
   </main><!-- #main -->
 </div><!-- #primary -->
 
