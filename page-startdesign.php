@@ -156,7 +156,7 @@ get_header();
 
       </div> <!-- .gs-process -->
 
-      <div class="gs-faq">
+      <div class="gs-faq" id="gs-faq-section">
 
           <div class="grid-box grid-box-one">
             <h6>Frequently Asked Questions</h6>

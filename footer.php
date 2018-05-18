@@ -30,30 +30,30 @@
 					<h3>Services</h3>
 					<ul>
 						<li>
-							<a href="#">Work</a>
+							<a href="/bandana-studio/case-studies/">Work</a>
 						</li>
 						<li>
-							<a href="#">Web Design</a>
+							<a href="/bandana-studio/startdesign/">Web Design</a>
 						</li>
 						<li>
-							<a href="#">Site Maintenance</a>
+							<a href="/bandana-studio/sitemaintenance/">Site Maintenance</a>
 						</li>
 					</ul>
 
 					<h3>Support</h3>
 					<ul>
 						<li>
-							<a href="#">Contact</a>
+							<a href="/bandana-studio/contact/">Contact</a>
 						</li>
 						<li>
-							<a href="#">FAQ</a>
+							<a href="/bandana-studio/startdesign#gs-faq-section">FAQ</a>
 						</li>
 					</ul>
 
 					<h3>Bandana Studio</h3>
 					<ul>
 						<li>
-							<a href="#">Info</a>
+							<a href="/bandana-studio/about/">Info</a>
 						</li>
 					</ul>
 		</div>
