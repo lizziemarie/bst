@@ -2102,13 +2102,13 @@ object {
 	align-items: center;
 }
 		#lg-m1, #lg-m2, #lg-m3, #lg-m4 {
-			color: #3B4449;
+			color: #F5E2D4;
 			font-size: 1.125em;
 			font-weight: 200;
 			text-transform: lowercase;
 		}
 		#lg-bs-logo {
-			color: #3B4449;
+			color: #F5E2D4;
 			font-size: 2em;
 			text-transform: uppercase;
 			font-family: Georgia;
@@ -2565,9 +2565,18 @@ h1 {
 
 
 @media screen and (min-width: 940px) {
-  /*Desktop styles here!*/
+/*Desktop styles here!*/
 
-
+/*Desktop header styles*/
+	.navigation-other {
+		grid-template-columns: minmax(80px,auto) minmax(400px,1200px) minmax(100px,auto);
+	}
+	#fp-my-topnav {
+		grid-template-columns: repeat(2, minmax(64px,200px)) minmax(350px,400px) repeat(2, minmax(64px,200px))
+	}
+			#lg-bs-logo {
+				font-size: 2.25em;
+			}
 /*Desktop Front Page Styles*/
 
 .intro-section {
