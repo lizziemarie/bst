@@ -18,11 +18,12 @@ get_header();
 		<main id="main" class="site-main">
 
 		    <div class="intro-section">
-          <div id="nav-icon">
+
+          <!--<div id="nav-icon">
             <a href="#">
               <img src="http://localhost:8888/bandana-studio/wp-content/uploads/2018/05/ham-nav.png" alt="Nav Menu">
             </a>
-          </div>
+          </div>-->
 
           <div class="bs-welcome">
             <h1>Bandana Studio</h1>

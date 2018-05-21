@@ -74,8 +74,8 @@ get_header();
           <div class="grid-box grid-box-two">
             <div class="grid-int">
               <div class="grid-int-1">
-                <p>How will you determine if my project is the right fit?</p>
-                <h3>+</h3>
+                <p><strong>My site wasn’t made with Bandana Studio. Can I still request revisions/support?</strong></p>
+                <p>I am more than willing to take a look at your site to see how I can fix it. However, each developer codes differently and typically this will take longer for the non-original developer to complete.</p>
               </div>
             </div>
           </div>

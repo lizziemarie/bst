@@ -21,6 +21,7 @@ get_header();
       <?php while ( have_posts() ) : the_post();
         $client_website = get_field('client_website');
         $client_testimonial = get_field('client_testimonial');
+        $client_url = get_field('client_url');
         $site_image = get_field('site_image');
         $size = "full"; ?>
 
@@ -32,7 +33,7 @@ get_header();
                     <h3 id="testimonial"><strong>From the Client:</strong></h3>
                     <p><?php echo $client_testimonial; ?></p>
                     <p>
-                        <a class="btn-large pill-large" href="<?php echo $client_website; ?>"><em>See the website: </em><br><strong><?php echo $client_website; ?></strong></a>
+                        <a class="btn-large pill-large" href="<?php echo $client_url; ?>" target="_blank"><em>See the website: </em><br><strong><?php echo $client_website; ?></strong></a>
                     </p>
                     <hr id="space-hr"></hr>
                   </div>

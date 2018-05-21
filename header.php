@@ -28,35 +28,101 @@
 	<a class="skip-link screen-reader-text" href="#content"><?php esc_html_e( 'Skip to content', 'bst' ); ?></a>
 
 	<header id="masthead" class="site-header">
-		<div class="site-branding">
-			<?php
-			the_custom_logo();
-			if ( !is_front_page() && !is_home() ) :
-				?>
-				<h1 class="site-title"><a href="<?php echo esc_url( home_url( '/' ) ); ?>" rel="home"><?php bloginfo( 'name' ); ?></a></h1>
-				<?php
-			else :
-				?>
-				<p class="site-title"><a href="<?php echo esc_url( home_url( '/' ) ); ?>" rel="home"><?php bloginfo( 'name' ); ?></a></p>
-				<?php
-			endif;
-			$bst_description = get_bloginfo( 'description', 'display' );
-			if ( $bst_description || is_customize_preview() ) :
-				?>
-				<p class="site-description"><?php echo $bst_description; /* WPCS: xss ok. */ ?></p>
-			<?php endif; ?>
-		</div><!-- .site-branding -->
 
-		<nav id="site-navigation" class="main-navigation">
-			<button class="menu-toggle" aria-controls="primary-menu" aria-expanded="false"><?php esc_html_e( 'Primary Menu', 'bst' ); ?></button>
+		<!-- NEW HEADER  -->
+		<!-- First if is for homepage/frontpage ham nav-->
+
+		<?php
+		if ( is_home() || is_front_page() ) :
+			 ?>
+		<nav role="navigation" class="navigation-front">
+  		<div id="menuToggle">
+			    <!--
+			    A fake / hidden checkbox is used as click reciever,
+			    so you can use the :checked selector on it.
+			    -->
+			    <input type="checkbox" />
+
+			    <!--
+			    Some spans to act as a hamburger.
+			    -->
+			  	<span></span>
+			    <span></span>
+
+					<a href="#">
+						<img src="http://localhost:8888/bandana-studio/wp-content/uploads/2018/05/ham-nav.png" alt="Nav Menu">
+					</a>
+
+			    <!--
+			    Too bad the menu has to be inside of the button
+			    but hey, it's pure CSS magic.
+			    -->
+			    <ul id="menu">
+			      <a style="text-decoration:none;"href="/bandana-studio/case-studies/"><li>Work</li></a>
+			      <a style="text-decoration:none;"href="/bandana-studio/about/"><li>Info</li></a>
+			      <a style="text-decoration:none;"href="/bandana-studio/contact/"><li>Contact</li></a>
+			      <a style="text-decoration:none;"href="/bandana-studio/startdesign/"><li>Get Started</li></a>
+			    </ul>
+  		</div>
+		</nav>
+
+
 			<?php
-			wp_nav_menu( array(
-				'theme_location' => 'menu-1',
-				'menu_id'        => 'primary-menu',
-			) );
+		else :
 			?>
 
-		</nav><!-- #site-navigation -->
+			<!--Else is for all other pages with ham nav and site name or site name and full menu on bigger screens-->
+
+			<nav role="navigation" class="navigation-other">
+	  		<div id="menuToggle">
+				    <!--
+				    A fake / hidden checkbox is used as click reciever,
+				    so you can use the :checked selector on it.
+				    -->
+				    <input type="checkbox" />
+
+				    <!--
+				    Some spans to act as a hamburger.
+				    -->
+				  	<span></span>
+				    <span></span>
+
+						<a href="#">
+							<img src="http://localhost:8888/bandana-studio/wp-content/uploads/2018/05/ham-nav.png" alt="Nav Menu">
+						</a>
+
+				    <!--
+				    Too bad the menu has to be inside of the button
+				    but hey, it's pure CSS magic.
+				    -->
+				    <ul id="menu">
+				      <a style="text-decoration:none;"href="/bandana-studio/case-studies/"><li>Work</li></a>
+				      <a style="text-decoration:none;"href="/bandana-studio/about/"><li>Info</li></a>
+				      <a style="text-decoration:none;"href="/bandana-studio/contact/"><li>Contact</li></a>
+				      <a style="text-decoration:none;"href="/bandana-studio/startdesign/"><li>Get Started</li></a>
+				    </ul>
+	  		</div>
+				<div id="sm-bs-logo">
+					Bandana studio
+				</div>
+
+
+				<!--FP TOPNAV-->
+				<div class="fp-topnav" id="fp-my-topnav">
+				  <a style="text-decoration:none;" href="/bandana-studio/case-studies/" id="lg-m1">Work</a>
+				  <a style="text-decoration:none;" href="/bandana-studio/about/" id="lg-m2">Info</a>
+					<a style="text-decoration:none;" href="/bandana-studio/" id="lg-bs-logo" class="active">Bandana Studio</a>
+				  <a style="text-decoration:none;" href="/bandana-studio/contact/" id="lg-m3">Contact</a>
+				  <a style="text-decoration:none;" href="/bandana-studio/startdesign/" id="lg-m4">Get Started</a>
+				</div>
+
+		</nav>
+
+
+		<?php endif; ?>
+
+
+
 	</header><!-- #masthead -->
 
 	<div id="content" class="site-content">
