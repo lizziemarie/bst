@@ -898,7 +898,7 @@ a:hover, a:active {
 	grid-template-rows: 50px auto;
 }
 
-#menuToggle {
+#menuToggle, #menuToggle-other {
 	grid-column: 2/3;
 	grid-row: 2/3;
 	display: inline-grid;
@@ -909,7 +909,7 @@ a:hover, a:active {
   user-select: none;
 }
 
-#menuToggle input
+#menuToggle input, #menuToggle-other input
 {
 	grid-column: 2/3;
 	grid-row: 2/3;
@@ -931,7 +931,7 @@ a:hover, a:active {
 /*
  * Just a quick hamburger
  */
-#menuToggle span
+#menuToggle span, #menuToggle-other span
 {
   display: none;
   width: 33px;
@@ -952,12 +952,12 @@ a:hover, a:active {
 }
 
 
-#menuToggle span:first-child
+#menuToggle span:first-child, #menuToggle-other span:first-child
 {
   transform-origin: 0% 0%;
 }
 
-#menuToggle span:nth-last-child(2)
+#menuToggle span:nth-last-child(2), #menuToggle-other span:nth-last-child(2)
 {
   transform-origin: 0% 100%;
 }
@@ -966,7 +966,7 @@ a:hover, a:active {
  * Transform all the slices of hamburger
  * into a crossmark.
  */
-#menuToggle input:checked ~ span
+#menuToggle input:checked ~ span, #menuToggle-other input:checked ~ span
 {
 	display: block;
   opacity: 1;
@@ -977,7 +977,7 @@ a:hover, a:active {
  * Ohyeah and the last one should go the other direction
  */
 
-#menuToggle input:checked ~ span:nth-last-child(3)
+#menuToggle input:checked ~ span:nth-last-child(3), #menuToggle-other input:checked ~ span:nth-last-child(3)
 {
 	transform: rotate(-45deg) translate(-8px, 5px);
 }
@@ -1023,7 +1023,7 @@ a:hover, a:active {
 /*
  * And let's slide it in from the left
  */
-#menuToggle input:checked ~ ul
+#menuToggle input:checked ~ ul, #menuToggle-other input:checked ~ ul
 {
   transform: none;
 }
@@ -1035,18 +1035,18 @@ a:hover, a:active {
 	grid-template-columns: 10vw 15vw 65vw 10vw;
 	grid-template-rows: 50px auto 50px;
 }
-			#menuToggle {
+			#menuToggle-other {
 				grid-column: 2/3;
 				grid-row: 2/3;
 			}
-					#menuToggle a img{
+					#menuToggle-other a img{
 						height: 44px;
 					}
 			#sm-bs-logo {
 				grid-column: 3/4;
 				grid-row: 2/3;
 
-				color: #F7EDE5;
+
 				font-family: Georgia;
 				font-size: 1.5em;
 				font-weight: 400;
@@ -1055,6 +1055,9 @@ a:hover, a:active {
 				text-transform: uppercase;
 				align-self: center;
 			}
+					#sm-bs-logo a {
+						color: #F7EDE5;
+					}
 
 @media screen and (max-width: 767px) {
 	#fp-my-topnav {
@@ -2083,7 +2086,7 @@ object {
 /*Tablet Header styles*/
 
 
-#menuToggle, #sm-bs-logo {
+#menuToggle-other, #sm-bs-logo {
 	display: none;
 }
 
@@ -2559,17 +2562,13 @@ h1 {
 
 
 
-
-
-
-
-
 @media screen and (min-width: 940px) {
 /*Desktop styles here!*/
 
 /*Desktop header styles*/
 	.navigation-other {
 		grid-template-columns: minmax(80px,auto) minmax(400px,1200px) minmax(100px,auto);
+		grid-template-rows: 90px auto 90px;
 	}
 	#fp-my-topnav {
 		grid-template-columns: repeat(2, minmax(64px,200px)) minmax(350px,400px) repeat(2, minmax(64px,200px))
@@ -2583,10 +2582,7 @@ h1 {
 	grid-template-columns: minmax(80px,auto) minmax(400px,1920px) minmax(100px,auto);
 	grid-template-rows: minmax(80px,100px) minmax(1fr,auto) minmax(50px,100px);
 }
-			#nav-icon {
-				grid-row: 2;
-				grid-column: 2;
-			}
+
 			.bs-welcome {
 				padding-top: 0%;
 				align-self: end;

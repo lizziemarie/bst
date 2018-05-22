@@ -74,7 +74,7 @@
 			<!--Else is for all other pages with ham nav and site name or site name and full menu on bigger screens-->
 
 			<nav role="navigation" class="navigation-other">
-	  		<div id="menuToggle">
+	  			<div id="menuToggle-other">
 				    <!--
 				    A fake / hidden checkbox is used as click reciever,
 				    so you can use the :checked selector on it.
@@ -103,7 +103,7 @@
 				    </ul>
 	  		</div>
 				<div id="sm-bs-logo">
-					Bandana studio
+					<a style="text-decoration:none;" href="/bandana-studio/">Bandana Studio</a>
 				</div>
 
 
