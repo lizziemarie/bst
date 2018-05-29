@@ -24,10 +24,6 @@ get_header();
           <img src="http://localhost:8888/bandana-studio/wp-content/uploads/2018/05/sonoma_pic.jpg" alt="lizzie marie about image">
         </div>
 
-        <div class="about-item-a">
-          <h5>*</h5>
-        </div>
-
         <div class="about-item-2">
           <h3>Let's build your dream site</h3>
           <h2 class="text-shadow underline">Info</h2>

@@ -26,7 +26,7 @@ get_header();
           </div>-->
 
           <div class="bs-welcome">
-            <h1>Bandana Studio</h1>
+            <h1>bandana studio</h1>
             <p>a design and web development studio for creative entrepreneurs</p>
 						<p id="intro-hide">let's build the website of your dreams</p>
             <h4>Welcome</h4>
@@ -189,19 +189,19 @@ get_header();
             </div>
 
             <div class="value-item-1 value-item">
-                <img src="http://localhost:8888/bandana-studio/wp-content/uploads/2018/05/one-stop-shop.png" alt="one stop shop icon">
+                <img src="http://localhost:8888/bandana-studio/wp-content/uploads/2018/05/one-stop-shop-icon-natural.png" alt="one stop shop icon">
                 <h3>One-Stop Shop</h3>
                 <p>As a designer and developer I will take your website from vision to launch without the need of third parties.</p>
             </div>
 
             <div class="value-item-2 value-item">
-                <img src="http://localhost:8888/bandana-studio/wp-content/uploads/2018/05/hassel-free-icon-–-2.png" alt="hassel free icon">
+                <img src="http://localhost:8888/bandana-studio/wp-content/uploads/2018/05/hassel-free-icon-natural.png" alt="hassel free icon">
                 <h3>Hassel Free</h3>
                 <p>Step by step, Bandana Studio takes the trickiness out of designing, building and launching a website.</p>
             </div>
 
             <div class="value-item-3 value-item">
-                <img src="http://localhost:8888/bandana-studio/wp-content/uploads/2018/05/design-icon-–-2.png" alt="design icon">
+                <img src="http://localhost:8888/bandana-studio/wp-content/uploads/2018/05/design-icon-natural.png" alt="design icon">
                 <h3>Stunning Design</h3>
                 <p>Let’s bring your unique vision to life through eye-pleasing color, graphics, and responsive pixel perfect design.</p>
             </div>

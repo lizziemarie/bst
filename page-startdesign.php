@@ -47,20 +47,20 @@ get_header();
                 <h3>Design & Development</h3>
                 <h6> What's Included </h6>
                 <ul>
-                  <li><strong>Design:</strong></li>
+                  <li style="font-weight: 900;">Design:</li>
                   <li>Moodboard</li>
                   <li>Design Mockups of all website pages in 3 responsive design sizes (desktop, tablet, mobile)</li>
                   <li>Two rounds of design revisions</li>
                 </ul>
                 <ul>
-                  <li><strong>Development:</strong></li>
+                  <li style="font-weight: 900;">Development:</li>
                   <li>Installation of the WordPress Content Management System</li>
                   <li>Installation of theme</li>
                   <li>Development of premium theme or custom theme depending on your business needs</li>
                   <li>Installation and configuration of plugins relative to your theme</li>
                 </ul>
                 <ul>
-                  <li><strong>Communication:</strong></li>
+                  <li style="font-weight: 900;">Communication:</li>
                   <li>Consultation, proposal, and on-boarding</li>
                   <li>Questionnaires and pinterest inspiration boards</li>
                   <li>File review and deliivery</li>

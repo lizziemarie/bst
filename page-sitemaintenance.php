@@ -31,10 +31,10 @@ get_header();
 
               <div class="gs-intro-item-2">
                 <h3>TLC for your site</h3>
-                <h2 class="text-shadow underline">Keep On<br></h2>
+                <h2 class="text-shadow underline">Keep on<br></h2>
                 <h2 id="no-mt" class="text-shadow underline">shining</h2>
                 <p>Just like any investment, a beautiful site needs regular maintenance. I want you to get the most out of your site and the easiest way to do that is through my full monthly maintenance and support services. This is my way to guarantee that your site is running at full capacity: backed up, up-to-date, and malware-free. Taking this next step ensures that you are getting the most out of your investment!
-                <br>If you feel comfortable and prefer to handle your own site maintenance and backups, I also offer support and revisions at my hourly rate to any site created by Bandana Studio.</p>
+                <br><br>If you feel comfortable and prefer to handle your own site maintenance and backups, I also offer support and revisions at my hourly rate to any site created by Bandana Studio.</p>
               </div>
 
       </div> <!-- .gs-intro -->
