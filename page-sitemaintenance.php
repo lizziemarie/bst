@@ -33,8 +33,8 @@ get_header();
                 <h3>TLC for your site</h3>
                 <h2 class="text-shadow underline">Keep on<br></h2>
                 <h2 id="no-mt" class="text-shadow underline">shining</h2>
-                <p>Just like any investment, a beautiful site needs regular maintenance. I want you to get the most out of your site and the easiest way to do that is through my full monthly maintenance and support services. This is my way to guarantee that your site is running at full capacity: backed up, up-to-date, and malware-free. Taking this next step ensures that you are getting the most out of your investment!
-                <br><br>If you feel comfortable and prefer to handle your own site maintenance and backups, I also offer support and revisions at my hourly rate to any site created by Bandana Studio.</p>
+                <p>Just like any investment, a beautiful site needs regular maintenance. I want you to get the most out of your site and the easiest way to do that is through my full maintenance and support services. This is my way to guarantee that your site is running at full capacity: backed up, up-to-date, and malware-free. The monthly maintenance plan ensures that you are getting the most out of your investment!
+                <br><br>If you prefer to handle your own site maintenance and backups, I also offer support and revisions at my hourly rate.</p>
               </div>
 
       </div> <!-- .gs-intro -->
@@ -48,13 +48,13 @@ get_header();
                 <h3>Monthly Maintenance Plan</h3>
                 <h6> What's Included </h6>
                 <ul>
-                  <li>Priority support requests</li>
-                  <li>Daily security and malware scan</li>
-                  <li>Daily uptime monitoring</li>
-                  <li>Weekly Wordpress core updates</li>
-                  <li>Weekly WordPress plugin updates</li>
-                  <li>Weekly secure off-site backups</li>
-                  <li>Monthly maintenance report</li>
+                  <li>- Priority support requests</li>
+                  <li>- Daily security and malware scan</li>
+                  <li>- Daily uptime monitoring</li>
+                  <li>- Weekly Wordpress core updates</li>
+                  <li>- Weekly WordPress plugin updates</li>
+                  <li>- Weekly secure off-site backups</li>
+                  <li>- Monthly maintenance report</li>
                 </ul>
               </div>
 
@@ -74,8 +74,8 @@ get_header();
           <div class="grid-box grid-box-two">
             <div class="grid-int">
               <div class="grid-int-1">
-                <p><strong>My site wasn’t made with Bandana Studio. Can I still request revisions/support?</strong></p>
-                <p>I am more than willing to take a look at your site to see how I can fix it. However, each developer codes differently and typically this will take longer for the non-original developer to complete.</p>
+                <p><strong>Do you offer support to sites not created by Bandana Studio?</strong></p>
+                <p>We offer support/revisions on a case by case basis. Please send an email to support@bandanastudio.co to see how we can help you out!</p>
               </div>
             </div>
           </div>
@@ -83,8 +83,8 @@ get_header();
           <div class="grid-box grid-box-three">
             <div class="grid-int">
               <div class="grid-int-1">
-                <p>How much will my website cost?</p>
-                <h3>+</h3>
+                <p><strong>Do I <em>really</em> need site maintenance?</strong></p>
+                <p>Yes! It is important to keep your site up and running at full capacity. We want your site to help you drive business and to do we need to make sure all cylinders are firing. </p>
               </div>
             </div>
           </div>
@@ -92,8 +92,8 @@ get_header();
           <div class="grid-box grid-box-four">
             <div class="grid-int">
               <div class="grid-int-1">
-                <p>What is the typical project timeline?</p>
-                <h3>+</h3>
+                <p><strong>I need help! How should I get in touch?</strong></p>
+                <p>Email us at support@bandanastudio.co and we will get back to you within 48 hours!</p>
               </div>
             </div>
           </div>
@@ -101,8 +101,8 @@ get_header();
           <div class="grid-box grid-box-five">
             <div class="grid-int">
               <div class="grid-int-1">
-                <p>What if I need to make future content changes to my site?</p>
-                <h3>+</h3>
+                <p><strong>How do I enroll in a monthly maintenance plan?</strong></p>
+                <p>Email us at support@bandanastudio.co and we will set you up!</p>
               </div>
             </div>
           </div>
@@ -110,8 +110,8 @@ get_header();
           <div class="grid-box grid-box-six">
             <div class="grid-int">
               <div class="grid-int-1">
-                <p>Why do I need both a designer and a developer?</p>
-                <h3>+</h3>
+                <p><strong>What are your support/revision rates?</strong></p>
+                <p>During business hours $80/hr is our standard. Clients on the monthly maintenance plan get at discount of $65/hr.</p>
               </div>
             </div>
           </div>

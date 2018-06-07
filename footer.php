@@ -33,7 +33,7 @@
 							<a href="/bandana-studio/case-studies/">Work</a>
 						</li>
 						<li>
-							<a href="/bandana-studio/startdesign/">Web Design</a>
+							<a href="/bandana-studio/startdesign/">Design & Branding</a>
 						</li>
 						<li>
 							<a href="/bandana-studio/sitemaintenance/">Site Maintenance</a>
@@ -54,6 +54,12 @@
 					<ul>
 						<li>
 							<a href="/bandana-studio/about/">Info</a>
+						</li>
+						<li>
+							<a href="/bandana-studio/about/">Terms & Conditions</a>
+						</li>
+						<li>
+							<a href="/bandana-studio/about/">Privacy Policy</a>
 						</li>
 					</ul>
 		</div>

@@ -45,19 +45,19 @@ get_header();
 
           <div class="services-item-1 service-item">
               <img src="http://localhost:8888/bandana-studio/wp-content/uploads/2018/05/services-ph.png" alt="one stop shop icon">
-              <h3>Website Design and Development</h3>
-              <p>Go from “Meh,” to “Money!” with a custom WordPress site that attracts your ideal audience, blows up conversion rates, and skyrockets traffic. With full site installation and support, we take your simple seed or idea and breathe functionality, practicality, and optimization through it so you can run forward with a truly inspired new site.</p>
+              <h3>BRAND & WEBSITE</h3>
+              <p>Take your business to the next level with fresh new branding and a custom website that attracts your target audience, increases conversion rates and sends your traffic through the roof. With full branding & site design, installation and support, we will be creative partners in breathing life into your vision.</p>
               <p>
-                <a class="btn pill" href="/bandana-studio/startdesign">get started</a>
+                <a class="btn-dark pill" href="/bandana-studio/startdesign">get started</a>
               </p>
           </div>
 
           <div class="services-item-2 service-item">
               <img src="http://localhost:8888/bandana-studio/wp-content/uploads/2018/05/services-ph.png" alt="hassel free icon">
-              <h3>Website Maintenance</h3>
-              <p>Go from “Meh,” to “Money!” with a custom WordPress site that attracts your ideal audience, blows up conversion rates, and skyrockets traffic. With full site installation and support, we take your simple seed or idea and breathe functionality, practicality, and optimization through it so you can run forward with a truly inspired new site.</p>
+              <h3>WEBSITE MAINTENANCE</h3>
+              <p>Just like any investment, a beautiful site needs regular maintenance. I want you to get the most out of your site and the easiest way to do that is through my full maintenance and support services. This is the way to guarantee that your site is running at full capacity: backed up, up-to-date, and malware-free.</p>
               <p>
-                <a class="btn pill" href="/bandana-studio/sitemaintenance">get started</a>
+                <a class="btn-dark pill" href="/bandana-studio/sitemaintenance">get started</a>
               </p>
           </div>
 

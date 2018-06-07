@@ -26,7 +26,7 @@ get_header();
           </div>-->
 
           <div class="bs-welcome">
-            <h1>bandana studio</h1>
+            <h1>Bandana Studio</h1>
             <p>a design and web development studio for creative entrepreneurs</p>
 						<p id="intro-hide">let's build the website of your dreams</p>
             <h4>Welcome</h4>
@@ -51,7 +51,7 @@ get_header();
             <div class="studio-about-item-2">
               <h2 class="text-shadow underline">It's time<br></h2>
               <h2 id="no-mt" class="text-shadow underline">to shine</h2>
-              <h3>Let's build your dream site</h3>
+              <h3>Design for <em>your</em> business</h3>
             </div>
 
 						<div class="studio-about-item-4">
@@ -68,8 +68,10 @@ get_header();
 
             <div class="studio-about-item-5">
               <h3>Let's build your dream site</h3>
-              <h6>Website Design</h6>
-              <p>Let’s build a dream website for you and your business.  A stunning website is the cornerstone to any thriving idea and I will design and build one that you’re finally proud of. We will be creative partners in building a stylish, functional, unique site that meets your business needs.</p>
+              <h6>Brand & Website</h6>
+              <p>A stunning website is the cornerstone to any thriving idea and together we will design and build one that you’re finally proud of!
+							<br>
+							<br>We will be creative partners in building a stylish, functional, unique site that helps you achieve your business goals.  I’ll use your vision as the framework for design concepts, and follow through with development, revisions, testing, launch and post launch support.</p>
             </div>
 
             <div class="studio-about-item-6">
@@ -111,7 +113,7 @@ get_header();
 	                  <h3>Exploration</h3>
 	                </div>
 	                <div class="hiw-i-3">
-	                  <p>visual inspirations, vibes and overall brand feelings.</p>
+	                  <p>visual inspirations, vibes and overall brand aesthetic.</p>
 	                </div>
 	              </li>
 
@@ -123,7 +125,7 @@ get_header();
 	                  <h3>Design</h3>
 	                </div>
 	                <div class="hiw-i-3">
-	                  <p>i’ll jump into creating design concepts for your review.</p>
+	                  <p>i’ll jump into creating moodboards and design concepts for your review.</p>
 	                </div>
 	              </li>
 
@@ -159,7 +161,7 @@ get_header();
 	                  <h3>Post Launch Support</h3>
 	                </div>
 	                <div class="hiw-i-3">
-	                  <p>let’s keep your site in perfect shape over time.</p>
+	                  <p>let’s keep your site in perfect shape over time - back ups, updates, etc.</p>
 	                </div>
 	              </li>
 
@@ -191,24 +193,24 @@ get_header();
             <div class="value-item-1 value-item">
                 <img src="http://localhost:8888/bandana-studio/wp-content/uploads/2018/05/one-stop-shop-icon-natural.png" alt="one stop shop icon">
                 <h3>One-Stop Shop</h3>
-                <p>As a designer and developer I will take your website from vision to launch without the need of third parties.</p>
+                <p>As a designer and developer I will take your website from the vision board to launch party so you can focus on your business to do list.</p>
             </div>
 
             <div class="value-item-2 value-item">
                 <img src="http://localhost:8888/bandana-studio/wp-content/uploads/2018/05/hassel-free-icon-natural.png" alt="hassel free icon">
                 <h3>Hassel Free</h3>
-                <p>Step by step, Bandana Studio takes the trickiness out of designing, building and launching a website.</p>
+                <p>Through a clear step by step process, I take the technical trickiness out of designing, building and launching a website.</p>
             </div>
 
             <div class="value-item-3 value-item">
                 <img src="http://localhost:8888/bandana-studio/wp-content/uploads/2018/05/design-icon-natural.png" alt="design icon">
                 <h3>Stunning Design</h3>
-                <p>Let’s bring your unique vision to life through eye-pleasing color, graphics, and responsive pixel perfect design.</p>
+                <p>We will bring your unique vision to life through color, graphics, and responsive pixel perfect design.</p>
             </div>
 
             <div class="value-button">
               <p>
-                <a class="btn pill" href="/bandana-studio/about">more info</a>
+                <a class="btn-dark pill" href="/bandana-studio/about">more info</a>
               </p>
             </div>
 
@@ -257,7 +259,7 @@ get_header();
 
             <div class="grid-button">
               <p>
-                <a class="pill btn-dark" href="/bandana-studio/startdesign">get started</a>
+                <a class="pill btn" href="/bandana-studio/startdesign">get started</a>
               </p>
             </div>
 
