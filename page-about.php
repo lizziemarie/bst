@@ -21,20 +21,13 @@ get_header();
       <div class="about">
 
         <div class="about-item-1">
-          <img src="http://localhost:8888/bandana-studio/wp-content/uploads/2018/05/sonoma_pic.jpg" alt="lizzie marie about image">
+          <img src="http://localhost:8888/bandana-studio/wp-content/uploads/2018/06/about-image-bs.jpg" alt="lizzie marie">
         </div>
 
         <div class="about-item-2">
-          <h3>Let's build your dream site</h3>
           <h2 class="text-shadow underline">Info</h2>
           <p>Based in Santa Barbara, California, Bandana Studio was founded to build longterm partnerships with creative entrepreneurs looking for a stunning, custom branding and website design. I work to bring your unique vision to life through collaboration, purpose and steady support.</p>
           <p>Check out my services below. If you feel like we’re a match, get in touch! </p>
-        </div>
-
-        <div class="about-item-3">
-          <p>
-            <a class="btn pill" href="/bandana-studio/startdesign">get started</a>
-          </p>
         </div>
       </div> <!-- .about -->
 
@@ -74,7 +67,7 @@ get_header();
           <div class="grid-int">
             <div class="grid-int-1">
               <p>Think we’d be a good match for a project but not sure where to start? Get in touch! Fill out the contact form here or shoot me an email directly at: </p>
-              <p><strong>hello@bandanastudio.co</strong></p>
+              <p><strong>hi@bandanastudio.co</strong></p>
               <p>Please allow at least 48 hours for a response</p>
             </div>
           </div>

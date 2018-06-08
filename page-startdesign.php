@@ -24,9 +24,12 @@ get_header();
               <div class="gs-intro-item-1">
                 <img src="http://localhost:8888/bandana-studio/wp-content/uploads/2018/05/ipad-test-bs.png" alt="keep scrolling" class="rotateimg100">
               </div>
-							
+							<div class="gs-intro-item-a decor">
+								<h5>B</h5>
+							</div>
+
               <div class="gs-intro-item-2">
-                <h3>LET’S BUILD YOUR DREAM BRAND & WEBSITE</h3>
+                <h3>YOUR DREAM BRAND & WEBSITE</h3>
                 <h2 class="text-shadow underline">It's time<br></h2>
                 <h2 id="no-mt" class="text-shadow underline">to shine</h2>
                 <p>Take your business to the next level with fresh new branding and a custom website that attracts your target audience, increases conversion rates and sends your traffic through the roof. With full site design, installation and support, we will be creative partners in breathing life into your vision.</p>
@@ -69,13 +72,12 @@ get_header();
                   <li>Website training specific to new site via video</li>
 									<li>1 week of tech support post launch</li>
                 </ul>
-              </div>
-
-              <div class="gs-included-item-3">
-                <p>
+								<p>
+									<br>
                   <a class="btn pill" href="/bandana-studio/case-studies/">view all work</a>
                 </p>
               </div>
+
       </div> <!-- .gs-included -->
 
       <div class="gs-process">
@@ -167,7 +169,7 @@ get_header();
             <div class="grid-int">
               <div class="grid-int-1">
                 <p><strong>How will you determine if my project is the right fit?</strong></p>
-                <p>“Let’s build a dream website for you. We will be partners in buiilding a gorgeous, functional, operational, creative, unique site that meets your business needs. Let’s build a dream website for you. We will be partners.”</p>
+                <p>We will kick off with a consultation call that will help us determine what your project goals are, the scope, and timelines. After that we will discuss if we are a good match for eachother!</p>
               </div>
             </div>
           </div>
@@ -194,7 +196,7 @@ get_header();
             <div class="grid-int">
               <div class="grid-int-1">
                 <p><strong>Will my site be mobile friendly?</strong></p>
-                <p>Your site will be designed for mobile devices, tablet devices and desktop computers!</p>
+                <p>Absolutely! Half of all website traffic now comes from mobile devices. Your site will be designed for mobile devices, tablet devices and desktop computers!</p>
               </div>
             </div>
           </div>

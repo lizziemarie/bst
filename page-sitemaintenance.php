@@ -24,6 +24,9 @@ get_header();
               <div class="gs-intro-item-1">
                 <img src="http://localhost:8888/bandana-studio/wp-content/uploads/2018/05/ipad-test-bs.png" alt="keep scrolling" class="rotateimg100">
               </div>
+							<div class="gs-intro-item-a decor">
+								<h5>B</h5>
+							</div>
 
               <div class="gs-intro-item-2">
                 <h3>TLC for your site</h3>
@@ -36,7 +39,7 @@ get_header();
       </div> <!-- .gs-intro -->
 
       <div class="gs-included">
-              <div class="gs-included-item-a">
+              <div class="gs-included-item-a decor">
                 <h5>*</h5>
               </div>
 
@@ -52,10 +55,8 @@ get_header();
                   <li>- Weekly secure off-site backups</li>
                   <li>- Monthly maintenance report</li>
                 </ul>
-              </div>
-
-              <div class="gs-included-item-3">
-                <p>
+								<p>
+									<br>
                   <a class="btn pill" href="/bandana-studio/contact/">contact us</a>
                 </p>
               </div>

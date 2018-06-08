@@ -44,7 +44,7 @@ get_header();
               <img src="http://localhost:8888/bandana-studio/wp-content/uploads/2018/05/ipad-test-bs.png" alt="keep scrolling" class="rotateimg100">
             </div>
 
-            <div class="studio-about-item-a">
+            <div class="studio-about-item-a decor">
               <h5>B</h5>
             </div>
 
@@ -62,7 +62,7 @@ get_header();
               <img src="http://localhost:8888/bandana-studio/wp-content/uploads/2018/05/working-long.png" alt="keep scrolling">
             </div>
 
-            <div class="studio-about-item-b">
+            <div class="studio-about-item-b decor">
               <h5>*</h5>
             </div>
 
@@ -80,7 +80,7 @@ get_header();
               </p>
             </div>
 
-						<div class="studio-about-item-8">
+						<div class="studio-about-item-8 decor">
 							<h5>*</h5>
 						</div>
 
@@ -168,11 +168,11 @@ get_header();
 	            </ul>
 	          </div> <!--  .h-i-w -->
 
-						<div class="studio-about-item-7">
+						<div class="studio-about-item-7 decor">
 							<h5>*</h5>
 						</div>
 
-						<div class="studio-about-bottom-item-2">
+						<div class="studio-about-bottom-item-2 decor">
 	              <h5>*</h5>
 	          </div>
 

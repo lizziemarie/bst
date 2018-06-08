@@ -37,7 +37,7 @@ get_header();
                 <br>- What I’ll need from you before the project begins
                 <br>- Frequently asked questions
             <br>
-            <br>After you’ve had a look, <a href="#gs-faq-section" style="color: #B66E60;"> head this way to schedule a free design consultation.</a></p>
+            <br>After you’ve had a look, <a href="https://calendly.com/lizziemariew/30min/06-11-2018" target="_blank" style="color: #B66E60;"> head this way to schedule a free design consultation.</a></p>
         </div>
 
 
@@ -57,7 +57,7 @@ get_header();
 		        endwhile;
 		        ?>
             <div class="button-cta">
-              <a class="btn-cta pill-cta" href="#" target="_blank">Book Your Free Consulation</a>
+              <a class="btn-cta pill-cta" href="https://calendly.com/lizziemariew/30min/06-11-2018" target="_blank">Book Your Free Consulation</a>
             </div>
 				</div>
 			</div>
