@@ -33,7 +33,7 @@ get_header();
           </div>
 
           <div id="scroll-triangle">
-            <img src="http://localhost:8888/bandana-studio/wp-content/uploads/2018/05/scroll-triangle.png" alt="keep scrolling" height="40">
+            <img src="http://localhost:8888/bandana-studio/wp-content/uploads/2018/06/Path-1.png" alt="keep scrolling" height="40">
           </div>
 
         </div> <!-- .intro-section -->
@@ -71,7 +71,7 @@ get_header();
               <h6>Brand & Website</h6>
               <p>A stunning website is the cornerstone to any thriving idea and together we will design and build one that you’re finally proud of!
 							<br>
-							<br>We will be creative partners in building a stylish, functional, unique site that helps you achieve your business goals.  I’ll use your vision as the framework for design concepts, and follow through with development, revisions, testing, launch and post launch support.</p>
+							<br>We will be creative partners in developing stylish and unique branding and a beautiful website that helps you achieve your business goals.  Using your vision as the framework I will lead us through each step to a successful launch!</p>
             </div>
 
             <div class="studio-about-item-6">

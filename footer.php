@@ -56,10 +56,10 @@
 							<a href="/bandana-studio/about/">Info</a>
 						</li>
 						<li>
-							<a href="/bandana-studio/about/">Terms & Conditions</a>
+							<a href="/bandana-studio/terms-conditions/">Terms & Conditions</a>
 						</li>
 						<li>
-							<a href="/bandana-studio/about/">Privacy Policy</a>
+							<a href="/bandana-studio/privacy-policy/">Privacy Policy</a>
 						</li>
 					</ul>
 		</div>

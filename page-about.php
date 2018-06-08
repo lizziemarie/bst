@@ -27,7 +27,7 @@ get_header();
         <div class="about-item-2">
           <h3>Let's build your dream site</h3>
           <h2 class="text-shadow underline">Info</h2>
-          <p>Based in Santa Barbara, California, Bandana Studio was founded to build longterm partnerships with creative entrepreneurs looking for a stunning, custom website. I work to bring your unique vision to life through collaboration, purpose and steady support.</p>
+          <p>Based in Santa Barbara, California, Bandana Studio was founded to build longterm partnerships with creative entrepreneurs looking for a stunning, custom branding and website design. I work to bring your unique vision to life through collaboration, purpose and steady support.</p>
           <p>Check out my services below. If you feel like we’re a match, get in touch! </p>
         </div>
 

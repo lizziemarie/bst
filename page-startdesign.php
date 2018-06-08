@@ -24,11 +24,7 @@ get_header();
               <div class="gs-intro-item-1">
                 <img src="http://localhost:8888/bandana-studio/wp-content/uploads/2018/05/ipad-test-bs.png" alt="keep scrolling" class="rotateimg100">
               </div>
-
-              <div class="gs-intro-item-a">
-                <h5>B</h5>
-              </div>
-
+							
               <div class="gs-intro-item-2">
                 <h3>LET’S BUILD YOUR DREAM BRAND & WEBSITE</h3>
                 <h2 class="text-shadow underline">It's time<br></h2>
@@ -93,7 +89,7 @@ get_header();
   	                  <h3>Inquiry</h3>
   	                </div>
   	                <div class="process-i-3">
-  	                  <p>Fill out the <em>contact form</em> below so we can jump on a call to discuss your project. I’ll ask some introductory questions to get a feel for your specific project needs and your schedule. I’ll also send over some information to walk you through the design and development process.</p>
+  	                  <p>Fill out the <a href="#gs-faq-section" style="color: #3b3331; text-decoration: none;"><strong><em>contact form</strong></em></a> below so we can jump on a call to discuss your project. I’ll ask some introductory questions to get a feel for your specific project needs and your schedule. I’ll also send over some information to walk you through the design and development process.</p>
   	                </div>
   	              </li>
 
@@ -170,7 +166,7 @@ get_header();
           <div class="grid-box grid-box-two">
             <div class="grid-int">
               <div class="grid-int-1">
-                <p>How will you determine if my project is the right fit?</p>
+                <p><strong>How will you determine if my project is the right fit?</strong></p>
                 <p>“Let’s build a dream website for you. We will be partners in buiilding a gorgeous, functional, operational, creative, unique site that meets your business needs. Let’s build a dream website for you. We will be partners.”</p>
               </div>
             </div>
@@ -179,7 +175,7 @@ get_header();
           <div class="grid-box grid-box-three">
             <div class="grid-int">
               <div class="grid-int-1">
-                <p>How much will this cost?</p>
+                <p><strong>How much will this cost?</strong></p>
                 <p>Good design will convert more website visitors into subscribers and customers, help you bring in more inquiries, and take you from where you are to where you’re dreaming of being! That being said, our packages typically cost between $2k-$6k.</p>
               </div>
             </div>
@@ -188,7 +184,7 @@ get_header();
           <div class="grid-box grid-box-four">
             <div class="grid-int">
               <div class="grid-int-1">
-                <p>What platform will you host my website on?</p>
+                <p><strong>What platform will you host my website on?</strong></p>
                 <p>It will depend on your business needs. After our consultation call we will advise which platform we would recommend based on your goals. We currently offer website packages using Squarespace and Wordpress.</p>
               </div>
             </div>
@@ -197,7 +193,7 @@ get_header();
           <div class="grid-box grid-box-five">
             <div class="grid-int">
               <div class="grid-int-1">
-                <p>Will my site be mobile friendly?</p>
+                <p><strong>Will my site be mobile friendly?</strong></p>
                 <p>Your site will be designed for mobile devices, tablet devices and desktop computers!</p>
               </div>
             </div>
@@ -206,7 +202,7 @@ get_header();
           <div class="grid-box grid-box-six">
             <div class="grid-int">
               <div class="grid-int-1">
-                <p>Will I be able to make content changes to my site in the future?</p>
+                <p><strong>Will I be able to make content changes to my site in the future?</strong></p>
                 <p>Yes! Our websites are designed and built to be user friendly and intuitive so you can keep moving forward without needing to know any code. We will also walk you through your site over Skype video and answer any questions you might have. </p>
               </div>
             </div>

@@ -25,10 +25,6 @@ get_header();
                 <img src="http://localhost:8888/bandana-studio/wp-content/uploads/2018/05/ipad-test-bs.png" alt="keep scrolling" class="rotateimg100">
               </div>
 
-              <div class="gs-intro-item-a">
-                <h5>B</h5>
-              </div>
-
               <div class="gs-intro-item-2">
                 <h3>TLC for your site</h3>
                 <h2 class="text-shadow underline">Keep on<br></h2>
@@ -60,7 +56,7 @@ get_header();
 
               <div class="gs-included-item-3">
                 <p>
-                  <a class="btn-dark pill" href="/bandana-studio/contact/">contact us</a>
+                  <a class="btn pill" href="/bandana-studio/contact/">contact us</a>
                 </p>
               </div>
       </div> <!-- .gs-included -->

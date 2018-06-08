@@ -429,7 +429,7 @@ h3 {
 	text-transform: uppercase;
 }
 h4 /*this is the welcome copy on hp*/{
-	color: #F5E2d4;
+	color: #F3EEEB;
 	font-family: 'Lato', sans-serif;
 	font-weight: 200;
 	text-align: center;
@@ -458,6 +458,7 @@ h6 /*section headers*/ {
 p {
 	margin-bottom: 1.5em;
 	font-family: 'Lato', sans-serif;
+	font-weight: 200;
 }
 
 dfn, cite, em, i {
@@ -1308,12 +1309,12 @@ a.pill.btn-dark:visited {
 	padding-left:0px;
 	margin-left: 0px;
 	place-self: center;
-	display: grid;
+	display: inline-grid;
 	grid-template-columns: 80vw;
 	grid-template-rows: 118px 118px 118px 118px 118px 118px;
 }
 			.hiw-li {
-				display: grid;
+				display: inline-grid;
 				grid-template-columns: 1fr 54px 225px 1fr;
 				grid-template-rows: 30px 1fr;
 			}
@@ -1712,7 +1713,7 @@ a.pill.btn-dark:visited {
 					.process-i-1 {
 						place-self: center;
 						grid-column: 2;
-						padding-top: 25px;
+						padding-top: 20px;
 					}
 					.process-i-2 {
 						align-self: start;
@@ -1721,6 +1722,9 @@ a.pill.btn-dark:visited {
 					.process-i-3 {
 							grid-column: 3/4;
 					}
+							.process-i-3 p{
+								font-weight: 200;
+							}
 
 /* Mobile Get Started Design Page: FAQ*/
 .gs-faq {
@@ -1846,7 +1850,7 @@ a.pill.btn-dark:visited {
 				/* project button */
 				.btn-large{
 					text-decoration:none;
-					color:#333333;
+					color:#3B3331;
 					font-size:18px;
 					padding:15px;
 					line-height:32px;
@@ -1857,7 +1861,8 @@ a.pill.btn-dark:visited {
 					background-color: #D4BEB1;
 				}
 				.btn-large:hover{
-					background-color:#fff;
+					background-color:#E2D1C8;
+					color:#3B3331;
 				}
 				.btn-large.pill-large{
 				  -webkit-border-radius: 16px;
@@ -1894,6 +1899,55 @@ a.pill.btn-dark:visited {
 		grid-row: 3;
 		font-weight: 200;
 	}
+/* Client Resources */
+.client-resources {
+	background-color: #fff;
+}
+.client-resources hr {
+			display: block;
+			height: 1px;
+			border: 0;
+			border-top: 1px solid #B5B5B5;
+			border-color: #B5B5B5;
+			margin: 3em 0 3em;
+			padding: 0px;
+}
+
+/* Client Onboarding */
+h6.cta-header {
+	padding-left: 10%;
+	padding-right: 10%;
+	padding-bottom: 50px;
+}
+/*client onboarding cta button*/
+.button-cta {
+	text-align: center;
+	margin-bottom: 100px;
+}
+.btn-cta{
+	text-decoration:none;
+	color:#FFFFFF;
+	font-size: 25px;
+	font-weight: 400;
+	text-transform: uppercase;
+	text-align: center;
+	letter-spacing: 1.5px;
+
+	padding: 15px 40px;
+	line-height: 70px;
+	height: auto;
+	display:inline-block;
+	background-color: #B66E60;
+}
+.btn-cta:hover{
+	background-color:#C48579;
+	color:#FFFFFF;
+}
+.btn-cta.pill-cta{
+	-webkit-border-radius: 10px;
+	-moz-border-radius: 10px;
+	border-radius: 10px;
+}
 
 /* Footer */
 /* Footer Instagram */
@@ -2458,6 +2512,7 @@ h1 {
 .contact {
 	grid-template-columns: auto 400px auto;
 	margin: 0px 20%;
+	background-color: #D4BEB1;
 }
 		.contact p {
 			padding-left: 10%;
@@ -2477,11 +2532,6 @@ h1 {
 			grid-row: 1;
 			padding-top: 20px;
 			padding-bottom: 0px;
-		}
-		.gs-intro-item-a {
-			grid-column: 8/13;
-			grid-row: 1/2;
-			place-self: end;
 		}
 		.gs-intro-item-2 {
 			grid-column: 7/13;
@@ -2551,6 +2601,9 @@ h1 {
 	grid-row-gap: 2vw;
 	grid-column-gap: 2vw;
 }
+		.gs-faq p {
+			font-size: 1em;
+		}
 /* Tablet GS Design Page: GS Contact */
 .gs-contact {
 	grid-template-columns: auto 500px auto;
@@ -2672,17 +2725,17 @@ h1 {
 									padding-left: 100px;
 								}
 											.studio-about-item-a h5 {
-												font-size: 120px;
+												font-size: 28em;
 											}
 								.studio-about-item-2 {
-									grid-column: 4/7;
+									grid-column: 3/8;
 									justify-self: center;
 								}
 											.studio-about-item-2 h2 {
-												font-size: 4em;
+												font-size: 7.5em;
 											}
 											.studio-about-item-2 h3 {
-												font-size: 1em;
+												font-size: 1.25em;
 											}
 								.studio-about-item-3 {
 									grid-column: 3/8;
@@ -2691,11 +2744,14 @@ h1 {
 									grid-column: 7/14;
 								}
 								.studio-about-item-5 {
-									grid-column: 9/13;
+									grid-column: 9/14;
 									padding-top: 60px;
 								}
 									.studio-about-item-5 h3 {
-										font-size: 1em;
+										font-size: 1.125em;
+									}
+									.studio-about-item-5 h6 {
+										font-size: 3.65em;
 									}
 								.studio-about-item-6 {
 									grid-column: 9/12;
@@ -2724,8 +2780,25 @@ h1 {
 								}
 								.studio-about-bottom-item-3 {
 									grid-column: 2/14;
+									padding-top: 100px;
+									padding-bottom: 100px;
 								}
-
+/*Desktop hiw Styles*/
+.h-i-w {
+	grid-template-rows: 50px 120px auto 30px;
+	}
+			.h-i-w h6 {
+				grid-column:1/4;
+			}
+		.hiw-li {
+			grid-template-columns: 1fr 54px 270px 1fr;
+		}
+		.h-i-w h6 {
+			font-size: 3em;
+		}
+		.h-i-w p {
+			font-size: 1em;
+		}
 /*Desktop Values Styles*/
 .value {
 	grid-template-columns: auto repeat(12, minmax(62px,87px)) auto;
@@ -2960,7 +3033,7 @@ h1 {
 
 /* Desktop Full Page: Privacy Policy, Terms & Conditions etc. */
 .full-page {
-	grid-template-columns: minmax(100px,auto) minmax(600px,1100px) minmax(100px,auto);
+	grid-template-columns: minmax(100px,auto) minmax(600px,900px) minmax(100px,auto);
 }
 /* Desktop Footer Styles*/
 
