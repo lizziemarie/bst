@@ -38,7 +38,7 @@ get_header();
               <img src="<?php echo get_template_directory_uri(); ?>/img/ipad-bonvoyage-mockup.png" alt="ipad with bon voyage website">
             </div>
 
-            <div class="studio-about-item-a decor">
+            <div class="studio-about-item-a">
               <img src="<?php echo get_template_directory_uri(); ?>/img/tying-bandana-1.png" alt="Bandana">
             </div>
 
@@ -56,7 +56,7 @@ get_header();
               <img src="<?php echo get_template_directory_uri(); ?>/img/mac-ocean-loft.jpg" alt="Desk in Loft Space with Website">
             </div>
 
-            <div class="studio-about-item-b decor">
+            <div class="studio-about-item-b">
               <img src="<?php echo get_template_directory_uri(); ?>/img/tying-bandana-2.png" alt="Bandana">
             </div>
 
@@ -74,7 +74,7 @@ get_header();
               </p>
             </div>
 
-						<div class="studio-about-item-8 decor">
+						<div class="studio-about-item-8">
 							<img src="<?php echo get_template_directory_uri(); ?>/img/tying-bandana-3.png" alt="Bandana">
 						</div>
 
@@ -162,7 +162,7 @@ get_header();
 	            </ul>
 	          </div> <!--  .h-i-w -->
 
-						<div class="studio-about-bottom-item-2 decor">
+						<div class="studio-about-bottom-item-2">
 	              <img src="<?php echo get_template_directory_uri(); ?>/img/tying-bandana-4.png" alt="Bandana">
 	          </div>
 
