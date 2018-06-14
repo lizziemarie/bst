@@ -50,7 +50,7 @@
 			    <span></span>
 
 					<a href="#">
-						<img class="front-ham-nav" src="http://localhost:8888/bandana-studio/wp-content/uploads/2018/06/bandana-studio-menu-bar.png" alt="Nav Menu">
+						<img class="front-ham-nav" src="<?php echo get_template_directory_uri(); ?>/img/light-ham-nav.png" alt="Nav Menu">
 					</a>
 
 			    <!--
@@ -88,7 +88,7 @@
 				    <span></span>
 
 						<a href="#">
-							<img src="http://localhost:8888/bandana-studio/wp-content/uploads/2018/06/Group-22@2x.png" alt="Nav Menu">
+							<img src="<?php echo get_template_directory_uri(); ?>/img/dark-ham-nav.png" alt="Nav Menu">
 						</a>
 
 				    <!--

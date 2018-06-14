@@ -19,23 +19,20 @@ get_header();
 
     <div class="get-started">
 
-      <div class="gs-intro">
+      <div class="about">
 
-              <div class="gs-intro-item-1">
-                <img src="http://localhost:8888/bandana-studio/wp-content/uploads/2018/05/ipad-test-bs.png" alt="keep scrolling" class="rotateimg100">
+              <div class="about-item-1">
+                <img src="<?php echo get_template_directory_uri(); ?>/img/loft-bonvoyage.jpg" alt="Loft Office">
               </div>
-							<div class="gs-intro-item-a decor">
-								<h5>B</h5>
-							</div>
 
-              <div class="gs-intro-item-2">
+              <div class="about-item-2">
                 <h3>YOUR DREAM BRAND & WEBSITE</h3>
                 <h2 class="text-shadow underline">It's time<br></h2>
                 <h2 id="no-mt" class="text-shadow underline">to shine</h2>
                 <p>Take your business to the next level with fresh new branding and a custom website that attracts your target audience, increases conversion rates and sends your traffic through the roof. With full site design, installation and support, we will be creative partners in breathing life into your vision.</p>
               </div>
 
-      </div> <!-- .gs-intro -->
+      </div> <!-- .about -->
 
       <div class="gs-included">
               <div class="gs-included-item-a">

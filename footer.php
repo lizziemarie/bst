@@ -66,22 +66,22 @@
 		<div id="footer-social">
 			<div class="f-s-i">
 					<a href="#">
-						<img src="http://localhost:8888/bandana-studio/wp-content/uploads/2018/05/fb-bs.png" alt="Facebook Link">
+						<img src="<?php echo get_template_directory_uri(); ?>/img/fb-bs.png" alt="Facebook Link">
 					</a>
 			</div>
 			<div class="f-s-i">
 					<a href="#">
-						<img src="http://localhost:8888/bandana-studio/wp-content/uploads/2018/05/be-bs.png" alt="Behance Link">
+						<img src="<?php echo get_template_directory_uri(); ?>/img/ig-bs.png" alt="Instagram Link">
 					</a>
 			</div>
 			<div class="f-s-i">
 					<a href="#">
-						<img src="http://localhost:8888/bandana-studio/wp-content/uploads/2018/05/dr-bs.png" alt="Dribbble Link">
+						<img src="<?php echo get_template_directory_uri(); ?>/img/p-bs.png" alt="Pinterest Link">
 					</a>
 			</div>
 			<div class="f-s-i">
 					<a href="#">
-						<img src="http://localhost:8888/bandana-studio/wp-content/uploads/2018/05/ig-bs.png" alt="Instagram Link">
+						<img src="<?php echo get_template_directory_uri(); ?>/img/dr-bs.png" alt="Dribbble Link">
 					</a>
 			</div>
 		</div>

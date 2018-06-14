@@ -19,16 +19,13 @@ get_header();
 
     <div class="get-started">
 
-      <div class="gs-intro">
+			<div class="about">
 
-              <div class="gs-intro-item-1">
-                <img src="http://localhost:8888/bandana-studio/wp-content/uploads/2018/05/ipad-test-bs.png" alt="keep scrolling" class="rotateimg100">
+              <div class="about-item-1">
+                <img src="<?php echo get_template_directory_uri(); ?>/img/laptop-relax.jpg" alt="Laptop Design">
               </div>
-							<div class="gs-intro-item-a decor">
-								<h5>B</h5>
-							</div>
 
-              <div class="gs-intro-item-2">
+              <div class="about-item-2">
                 <h3>TLC for your site</h3>
                 <h2 class="text-shadow underline">Keep on<br></h2>
                 <h2 id="no-mt" class="text-shadow underline">shining</h2>
@@ -36,7 +33,7 @@ get_header();
                 <br><br>If you prefer to handle your own site maintenance and backups, I also offer support and revisions at my hourly rate.</p>
               </div>
 
-      </div> <!-- .gs-intro -->
+      </div> <!-- .about -->
 
       <div class="gs-included">
               <div class="gs-included-item-a decor">

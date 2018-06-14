@@ -21,7 +21,7 @@ get_header();
       <div class="about">
 
         <div class="about-item-1">
-          <img src="http://localhost:8888/bandana-studio/wp-content/uploads/2018/06/about-image-bs.jpg" alt="lizzie marie">
+          <img src="<?php echo get_template_directory_uri(); ?>/img/lizzie-about.jpg" alt="lizzie marie">
         </div>
 
         <div class="about-item-2">
@@ -37,7 +37,7 @@ get_header();
           </div>
 
           <div class="services-item-1 service-item">
-              <img src="http://localhost:8888/bandana-studio/wp-content/uploads/2018/05/services-ph.png" alt="one stop shop icon">
+              <img src="<?php echo get_template_directory_uri(); ?>/img/luna-services-small.jpg" alt="one stop shop icon">
               <h3>BRAND & WEBSITE</h3>
               <p>Take your business to the next level with fresh new branding and a custom website that attracts your target audience, increases conversion rates and sends your traffic through the roof. With full branding & site design, installation and support, we will be creative partners in breathing life into your vision.</p>
               <p>
@@ -46,7 +46,7 @@ get_header();
           </div>
 
           <div class="services-item-2 service-item">
-              <img src="http://localhost:8888/bandana-studio/wp-content/uploads/2018/05/services-ph.png" alt="hassel free icon">
+              <img src="<?php echo get_template_directory_uri(); ?>/img/flowers-services-small.jpg" alt="hassel free icon">
               <h3>WEBSITE MAINTENANCE</h3>
               <p>Just like any investment, a beautiful site needs regular maintenance. I want you to get the most out of your site and the easiest way to do that is through my full maintenance and support services. This is the way to guarantee that your site is running at full capacity: backed up, up-to-date, and malware-free.</p>
               <p>

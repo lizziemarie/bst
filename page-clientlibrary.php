@@ -21,7 +21,7 @@ get_header();
       <div class="about">
 
         <div class="about-item-1">
-          <img src="http://localhost:8888/bandana-studio/wp-content/uploads/2018/05/sonoma_pic.jpg" alt="lizzie marie about image">
+          <img src="<?php echo get_template_directory_uri(); ?>/img/laptop-relax.jpg" alt="Laptop Design">
         </div>
 
         <div class="about-item-2">

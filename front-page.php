@@ -19,12 +19,6 @@ get_header();
 
 		    <div class="intro-section">
 
-          <!--<div id="nav-icon">
-            <a href="#">
-              <img src="http://localhost:8888/bandana-studio/wp-content/uploads/2018/05/ham-nav.png" alt="Nav Menu">
-            </a>
-          </div>-->
-
           <div class="bs-welcome">
             <h1>Bandana Studio</h1>
             <p>a design and web development studio for creative entrepreneurs</p>
@@ -33,7 +27,7 @@ get_header();
           </div>
 
           <div id="scroll-triangle">
-            <img src="http://localhost:8888/bandana-studio/wp-content/uploads/2018/06/Path-1.png" alt="keep scrolling" height="40">
+            <img src="<?php echo get_template_directory_uri(); ?>/img/scroll-triangle.png" alt="keep scrolling" height="40">
           </div>
 
         </div> <!-- .intro-section -->
@@ -41,11 +35,11 @@ get_header();
         <div class="about-section">
           <div class="studio-about">
             <div class="studio-about-item-1">
-              <img src="http://localhost:8888/bandana-studio/wp-content/uploads/2018/05/ipad-test-bs.png" alt="keep scrolling" class="rotateimg100">
+              <img src="<?php echo get_template_directory_uri(); ?>/img/ipad-bonvoyage-mockup.png" alt="ipad with bon voyage website">
             </div>
 
             <div class="studio-about-item-a decor">
-              <h5>B</h5>
+              <img src="<?php echo get_template_directory_uri(); ?>/img/tying-bandana-1.png" alt="Bandana">
             </div>
 
             <div class="studio-about-item-2">
@@ -55,15 +49,15 @@ get_header();
             </div>
 
 						<div class="studio-about-item-4">
-              <img src="http://localhost:8888/bandana-studio/wp-content/uploads/2018/05/flaylayphoto@2x.jpg" alt="keep scrolling">
+              <img src="<?php echo get_template_directory_uri(); ?>/img/ipad-iphone-cc-small.png" alt="Ipad and Iphone Mockups of Climate Culture Website">
             </div>
 
             <div class="studio-about-item-3">
-              <img src="http://localhost:8888/bandana-studio/wp-content/uploads/2018/05/working-long.png" alt="keep scrolling">
+              <img src="<?php echo get_template_directory_uri(); ?>/img/mac-ocean-loft.jpg" alt="Desk in Loft Space with Website">
             </div>
 
             <div class="studio-about-item-b decor">
-              <h5>*</h5>
+              <img src="<?php echo get_template_directory_uri(); ?>/img/tying-bandana-2.png" alt="Bandana">
             </div>
 
             <div class="studio-about-item-5">
@@ -81,12 +75,12 @@ get_header();
             </div>
 
 						<div class="studio-about-item-8 decor">
-							<h5>*</h5>
+							<img src="<?php echo get_template_directory_uri(); ?>/img/tying-bandana-3.png" alt="Bandana">
 						</div>
 
 
 			      <div class="studio-about-bottom-item-1">
-		          <img src="http://localhost:8888/bandana-studio/wp-content/uploads/2018/05/studio-about-bottom@2x.jpg" alt="keep scrolling">
+		          <img src="<?php echo get_template_directory_uri(); ?>/img/mac-flowers.jpg" alt="Desk with Design Website and Flowers">
 						</div>
 
 
@@ -168,12 +162,8 @@ get_header();
 	            </ul>
 	          </div> <!--  .h-i-w -->
 
-						<div class="studio-about-item-7 decor">
-							<h5>*</h5>
-						</div>
-
 						<div class="studio-about-bottom-item-2 decor">
-	              <h5>*</h5>
+	              <img src="<?php echo get_template_directory_uri(); ?>/img/tying-bandana-4.png" alt="Bandana">
 	          </div>
 
 	          <div class="studio-about-bottom-item-3">
@@ -191,19 +181,19 @@ get_header();
             </div>
 
             <div class="value-item-1 value-item">
-                <img src="http://localhost:8888/bandana-studio/wp-content/uploads/2018/05/one-stop-shop-icon-natural.png" alt="one stop shop icon">
+                <img src="<?php echo get_template_directory_uri(); ?>/img/value-1.png" alt="One Stop Shop for design and development">
                 <h3>One-Stop Shop</h3>
                 <p>As a designer and developer I will take your website from the vision board to launch party so you can focus on your business to do list.</p>
             </div>
 
             <div class="value-item-2 value-item">
-                <img src="http://localhost:8888/bandana-studio/wp-content/uploads/2018/05/hassel-free-icon-natural.png" alt="hassel free icon">
+                <img src="<?php echo get_template_directory_uri(); ?>/img/value-2.png" alt="Hassel Free Branding and Website Design">
                 <h3>Hassel Free</h3>
                 <p>Through a clear step by step process, I take the technical trickiness out of designing, building and launching a website.</p>
             </div>
 
             <div class="value-item-3 value-item">
-                <img src="http://localhost:8888/bandana-studio/wp-content/uploads/2018/05/design-icon-natural.png" alt="design icon">
+                <img src="<?php echo get_template_directory_uri(); ?>/img/value-3.png" alt="Beautiful Design that converts">
                 <h3>Stunning Design</h3>
                 <p>We will bring your unique vision to life through color, graphics, and responsive pixel perfect design.</p>
             </div>
@@ -217,7 +207,18 @@ get_header();
           </div> <!-- .value -->
 
           <div class="reviews">
-
+						<?php query_posts('posts_per_page=3&post_type=reviews'); ?>
+						<?php while ( have_posts() ) : the_post();
+							$reviews = get_field('reviews');
+							$reviewer_1 = get_field('reviewer_1');
+							$reviewer_1_business = get_field('reviewer_1_business');
+							$reviews_2 = get_field('reviews_2');
+							$reviewer_2 = get_field('reviewer_2');
+							$reviewer_2_business = get_field('reviewer_2_business');
+							$reviews_3 = get_field('reviews_3');
+							$reviewer_3 = get_field('reviewer_3');
+							$reviewer_3_business = get_field('reviewer_3_business');
+							?>
             <div class="grid-box grid-box-one">
               <h6>Reviews</h6>
             </div>
@@ -225,34 +226,34 @@ get_header();
             <div class="grid-box grid-box-two">
               <div class="grid-int">
                 <div class="grid-int-1">
-                  <p>“We will be partners in buiilding a gorgeous, functional, operational, creative, unique site that meets your business needs. Let’s build a dream website for you. We will be partners."</p>
-                  <p>- Susie W., <br> <em>Business Owner</em></p>
+                  <p>“<?php echo $reviews; ?>"</p>
+                  <p><?php echo $reviewer_1; ?>, <br><em><?php echo $reviewer_1_business; ?></em></p>
                 </div>
               </div>
             </div>
 
             <div class="grid-box grid-box-three">
-              <img src="http://localhost:8888/bandana-studio/wp-content/uploads/2018/05/Bandana-Studio-2.png" alt="Bandana Illustration">
+              <img src="<?php echo get_template_directory_uri(); ?>/img/bandana-1.png" alt="Bandana Design">
             </div>
 
             <div class="grid-box grid-box-four">
               <div class="grid-int">
                 <div class="grid-int-1">
-                  <p>“We loved working with Lizzie and Bandana Studio. Our site is more than anything we could have imagined."</p>
-                  <p>- Susie W., <br> <em>Business Owner</em></p>
+									<p>“<?php echo $reviews_2; ?>"</p>
+                  <p><?php echo $reviewer_2; ?>, <br><em><?php echo $reviewer_2_business; ?></em></p>
                 </div>
               </div>
             </div>
 
             <div class="grid-box grid-box-five">
-              <img src="http://localhost:8888/bandana-studio/wp-content/uploads/2018/05/bandana-one.png" alt="Bandana Illustration">
+              <img src="<?php echo get_template_directory_uri(); ?>/img/bandana-2.png" alt="Bandana Design">
             </div>
 
             <div class="grid-box grid-box-six">
               <div class="grid-int">
                 <div class="grid-int-1">
-                  <p>“We loved working with Lizzie and Bandana Studio. Our site is more than anything we could have imagined."</p>
-                  <p>- Susie W., <br> <em>Business Owner</em></p>
+									<p>“<?php echo $reviews_3; ?>"</p>
+                  <p><?php echo $reviewer_3; ?>, <br><em><?php echo $reviewer_3_business; ?></em></p>
                 </div>
               </div>
             </div>
@@ -263,6 +264,7 @@ get_header();
               </p>
             </div>
 
+					<?php endwhile; // end of the loop. ?>
           </div> <!-- .reviews -->
 
 

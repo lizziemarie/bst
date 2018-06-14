@@ -1071,7 +1071,7 @@ img.front-ham-nav  {
 
 /*hide on mobile*/
 @media screen and (max-width: 4000px) {
-  /*#masthead, */#intro-hide, .studio-about-item-4, .studio-about-item-7, .studio-about-item-8, .gs-included-item-a {
+  /*#masthead, */#intro-hide, .studio-about-item-4, .gs-included-item-a {
     display: none;
   }
 }
@@ -1192,13 +1192,6 @@ h1 {
 			.studio-about-item-1 {
 				justify-self: end;
 			}
-						.rotateimg100 {
-								-webkit-transform:rotate(100deg);
-								-moz-transform: rotate(100deg);
-								-ms-transform: rotate(100deg);
-								-o-transform: rotate(100deg);
-								transform: rotate(100deg);
-						}
 			.studio-about-item-1, .studio-about-item-2, .studio-about-item-6,
 			.studio-about-bottom-item-3, .studio-about-item-5 {
 				padding-top: 36px;
@@ -1443,7 +1436,7 @@ a.pill.btn-dark:visited {
 										grid-column: 2/3;
 										grid-row: 2/3;
 										place-self: stretch;
-										display: grid;
+										display: inline-grid;
 										place-items: center;
 									}
 
@@ -1699,7 +1692,7 @@ a.pill.btn-dark:visited {
 	padding-left:0px;
 	margin-left: 0px;
 	place-self: center;
-	display: grid;
+	display: inline-grid;
 	grid-template-columns: 80vw;
 	grid-template-rows: repeat(6,auto);
 }
@@ -2315,14 +2308,6 @@ h1 {
 									grid-column: 7/11;
 									grid-row: 2/4;
 								}
-								.studio-about-item-7 {
-									grid-column: 5/7;
-									grid-row: 4/6;
-									place-self: end;
-								}
-											.studio-about-item-7 h5 {
-												color: #F5E2D4;
-											}
 								.studio-about-item-8 {
 									grid-column: 10/13;
 									grid-row: 6/7;
@@ -2612,6 +2597,9 @@ h1 {
 	grid-template-columns: repeat(2,auto);
 	grid-template-rows: repeat(3,auto);
 }
+		.gs-process p {
+			padding-right: 40px;
+		}
 
 /* Tablet GS Design Page: GS FAQ */
 .gs-faq {
@@ -2780,12 +2768,7 @@ h6 {
 								.studio-about-item-b {
 									grid-column: 8/12;
 								}
-								.studio-about-item-7 {
-									grid-column: 6/8;
-									justify-self: center;
-									align-self: center;
-									padding-top: 90%;
-								}
+
 								.studio-about-item-8 {
 									grid-column: 11/14;
 								}
@@ -3015,7 +2998,6 @@ h6 {
 	grid-row: 3/4;
 	grid-column: 2/14;
 	display: inline-grid;
-	column-gap: 40px;
 }
 		.process-li {
 			display: inline-grid;
