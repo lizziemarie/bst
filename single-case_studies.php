@@ -19,6 +19,7 @@ get_header();
   <main id="main" class="site-main">
     <div class="project">
       <?php while ( have_posts() ) : the_post();
+        $project_type = get_field('project_type');
         $client_website = get_field('client_website');
         $content_title = get_field('content_title');
         $client_testimonial = get_field('client_testimonial');
@@ -29,13 +30,13 @@ get_header();
         <article class="case-study">
                   <div class="case-study-info">
                     <h6><?php the_title(); ?></h6>
-                    <p id="client-site"><em>Website: </em><h3 id="client-site"><strong><?php echo $client_website; ?></strong></h3>
+                    <p id="client-site"><em><?php echo $project_type; ?></em><h3 id="client-site"><strong><?php echo $client_website; ?></strong></h3>
                     <hr></hr>
                     <h3><strong><?php echo $content_title; ?></strong></h3>
                     <p><?php echo $client_testimonial; ?></p>
-                    <p>
+                    <!--<p>
                         <a class="btn-large pill-large" href="<?php echo $client_url; ?>" target="_blank"><em>See the website: </em><br><strong><?php echo $client_website; ?></strong></a>
-                    </p>
+                    </p>-->
                     <hr id="space-hr"></hr>
                   </div>
 

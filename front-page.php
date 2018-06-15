@@ -209,6 +209,7 @@ get_header();
           <div class="reviews">
 						<?php query_posts('posts_per_page=3&post_type=reviews'); ?>
 						<?php while ( have_posts() ) : the_post();
+							$grid_type = get_field('grid_type');
 							$reviews = get_field('reviews');
 							$reviewer_1 = get_field('reviewer_1');
 							$reviewer_1_business = get_field('reviewer_1_business');
@@ -220,7 +221,7 @@ get_header();
 							$reviewer_3_business = get_field('reviewer_3_business');
 							?>
             <div class="grid-box grid-box-one">
-              <h6>Reviews</h6>
+              <h6><?php echo $grid_type; ?></h6>
             </div>
 
             <div class="grid-box grid-box-two">
