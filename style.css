@@ -2635,11 +2635,14 @@ h1 {
 /* Tablet Work Page */
 	.work {
 		grid-template-columns: minmax(20px,60px) repeat(2,1fr) minmax(20px,60px);
-		grid-column-gap: 1em;
+		grid-column-gap: 2em;
 	}
 
   	.work div.case-study-images:nth-of-type(even){
 			grid-column: 3/4;
+		}
+		.case-study-images {
+			padding: 20px 0px;
 		}
 
 /* Tablet Project Page */
@@ -2666,6 +2669,8 @@ h1 {
 				grid-row: 3/4;
 				padding: 30px 0px;
 		}
+
+
 
 /*Footer Styles*/
 /* Instagram*/
@@ -3054,8 +3059,12 @@ h6 {
 
 /* Desktop Work Page */
 .work {
-	grid-template-columns: minmax(100px,auto) repeat(2,minmax(300px,550px)) minmax(100px,auto);
+	grid-template-columns: minmax(100px,auto) repeat(2,minmax(200px,500px)) minmax(100px,auto);
+	grid-column-gap: 4em;
 }
+		.case-study-images {
+			padding: 40px 0px;
+		}
 
 
 /* Desktop Project Page */
