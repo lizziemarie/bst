@@ -31,7 +31,6 @@ get_header();
 
                 <p>- A detailed look at my design process
                 <br>- Pricing & packages
-                <br>- Payment plans
                 <br>- How we will communicate during the project
                 <br>- Timelines
                 <br>- What I’ll need from you before the project begins

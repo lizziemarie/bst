@@ -1731,9 +1731,12 @@ a.pill.btn-dark:visited {
 .gs-faq {
 	background-color: #fff;
 }
-.grid-box, .gs-faq h6 {
+.gs-faq h6 {
 	padding-left: 5%;
 	padding-right: 5%;
+	text-align: center;
+}
+.grid-box {
 	text-align: center;
 }
 
@@ -2294,6 +2297,7 @@ h1 {
 									grid-row: 5/6;
 									display: block;
 									align-self: start;
+									padding-top: 80px;
 								}
 								.studio-about-item-5 {
 									grid-column: 7/12;
@@ -2657,6 +2661,7 @@ h1 {
 				grid-column: 2/3;
 				grid-row: 2/3;
 				padding-right: 20px;
+				padding-top: 0px;
 		}
 
 		.case-study-image {
@@ -2670,7 +2675,10 @@ h1 {
 				padding: 30px 0px;
 		}
 
-
+/*Welcome/Onboarding Styles*/
+		.alignleft {
+			float: none;
+		}
 
 /*Footer Styles*/
 /* Instagram*/
@@ -2687,6 +2695,13 @@ h1 {
 /*Desktop styles here!*/
 h6 {
 	font-size: 2.8em;
+}
+
+/*Welcome/Onboarding Styles*/
+.alignleft {
+	display: inline;
+	float: left;
+	margin-right: 1.5em;
 }
 /*Desktop header styles*/
 	.navigation-other {
@@ -2768,6 +2783,7 @@ h6 {
 									grid-column: 7/14;
 									grid-row: 4/7;
 									align-self: end;
+									padding-top: 0px;
 								}
 								.studio-about-item-5 {
 									grid-column: 9/14;

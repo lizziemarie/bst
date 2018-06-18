@@ -166,7 +166,7 @@ get_header();
             <div class="grid-int">
               <div class="grid-int-1">
                 <p><strong>How will you determine if my project is the right fit?</strong></p>
-                <p>We will kick off with a consultation call that will help us determine what your project goals are, the scope, and timelines. After that we will discuss if we are a good match for eachother!</p>
+                <p>We will kick off with a consultation call that will help us determine what your project goals are, the scope, and timelines. After that we will discuss if we are a good match for each other!</p>
               </div>
             </div>
           </div>
@@ -174,8 +174,8 @@ get_header();
           <div class="grid-box grid-box-three">
             <div class="grid-int">
               <div class="grid-int-1">
-                <p><strong>How much will this cost?</strong></p>
-                <p>Good design will convert more website visitors into subscribers and customers, help you bring in more inquiries, and take you from where you are to where you’re dreaming of being! That being said, our packages typically cost between $2k-$6k.</p>
+                <p><strong>How much will my project cost?</strong></p>
+                <p>Good design will convert more website visitors into subscribers and customers, help you bring in more inquiries, and take you from where you are to where you’re dreaming of being! That being said, our packages are typically an investment of between $2k-$6k.</p>
               </div>
             </div>
           </div>
@@ -193,7 +193,7 @@ get_header();
             <div class="grid-int">
               <div class="grid-int-1">
                 <p><strong>Will my site be mobile friendly?</strong></p>
-                <p>Absolutely! Half of all website traffic now comes from mobile devices. Your site will be designed for mobile devices, tablet devices and desktop computers!</p>
+                <p>Absolutely! Half of all website traffic now comes from mobile devices. Your site will be designed for mobile devices, tablets, laptops and desktop computers!</p>
               </div>
             </div>
           </div>
@@ -202,7 +202,7 @@ get_header();
             <div class="grid-int">
               <div class="grid-int-1">
                 <p><strong>Will I be able to make content changes to my site in the future?</strong></p>
-                <p>Yes! Our websites are designed and built to be user friendly and intuitive so you can keep moving forward without needing to know any code. We will also walk you through your site over Skype video and answer any questions you might have. </p>
+                <p>Yes! Our websites are built to be user friendly and intuitive so you can keep moving forward without needing to know any code. We will also walk you through your site over Skype video and answer any questions you might have. </p>
               </div>
             </div>
           </div>
