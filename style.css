@@ -1731,7 +1731,7 @@ a.pill.btn-dark:visited {
 .gs-faq {
 	background-color: #fff;
 }
-.gs-faq h6 {
+.grid-box, .gs-faq h6 {
 	padding-left: 5%;
 	padding-right: 5%;
 	text-align: center;
@@ -2743,18 +2743,20 @@ h6 {
 								.studio-about-item-1 {
 									grid-column: 9/14;
 									padding-top: 120px;
+									margin-bottom: 150px;
 								}
 								.studio-about-item-a {
 									grid-column: 4/8;
 									justify-self: center;
-									margin-top: 200px;
+									margin-top: 100px;
 								}
 								.studio-about-item-2 {
 									grid-column: 2/7;
 									justify-self: center;
+									margin-bottom: 150px;
 								}
 											.studio-about-item-2 h2 {
-												font-size: 7.5em;
+												font-size: 6.5em;
 											}
 											.studio-about-item-2 h3 {
 												font-size: 1.25em;

@@ -227,8 +227,8 @@ get_header();
             <div class="grid-box grid-box-two">
               <div class="grid-int">
                 <div class="grid-int-1">
-                  <p>“<?php echo $reviews; ?>"</p>
-                  <p><?php echo $reviewer_1; ?>, <br><em><?php echo $reviewer_1_business; ?></em></p>
+                  <p><?php echo $reviews; ?></p>
+                  <p><?php echo $reviewer_1; ?> <br><em><?php echo $reviewer_1_business; ?></em></p>
                 </div>
               </div>
             </div>
@@ -240,8 +240,8 @@ get_header();
             <div class="grid-box grid-box-four">
               <div class="grid-int">
                 <div class="grid-int-1">
-									<p>“<?php echo $reviews_2; ?>"</p>
-                  <p><?php echo $reviewer_2; ?>, <br><em><?php echo $reviewer_2_business; ?></em></p>
+									<p><?php echo $reviews_2; ?></p>
+                  <p><?php echo $reviewer_2; ?> <br><em><?php echo $reviewer_2_business; ?></em></p>
                 </div>
               </div>
             </div>
@@ -253,8 +253,8 @@ get_header();
             <div class="grid-box grid-box-six">
               <div class="grid-int">
                 <div class="grid-int-1">
-									<p>“<?php echo $reviews_3; ?>"</p>
-                  <p><?php echo $reviewer_3; ?>, <br><em><?php echo $reviewer_3_business; ?></em></p>
+									<p><?php echo $reviews_3; ?></p>
+                  <p><?php echo $reviewer_3; ?> <br><em><?php echo $reviewer_3_business; ?></em></p>
                 </div>
               </div>
             </div>
