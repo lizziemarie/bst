@@ -184,7 +184,7 @@ get_header();
             <div class="grid-int">
               <div class="grid-int-1">
                 <p><strong>What platform will you host my website on?</strong></p>
-                <p>It will depend on your business needs. After our consultation call we will advise which platform we would recommend based on your goals. We currently offer website packages using Squarespace and Wordpress.</p>
+                <p>It will depend on your business needs. After our consultation call we will advise which platform we would recommend based on your goals. We usually recommend Wordpress because it offers more advanced customization and growth opportunity.</p>
               </div>
             </div>
           </div>
