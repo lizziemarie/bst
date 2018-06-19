@@ -29,8 +29,7 @@ get_header();
                 <h3>TLC for your site</h3>
                 <h2 class="text-shadow underline">Keep on<br></h2>
                 <h2 id="no-mt" class="text-shadow underline">shining</h2>
-                <p>Just like any investment, a beautiful site needs regular maintenance. I want you to get the most out of your site and the easiest way to do that is through my full maintenance and support services. This is my way to guarantee that your site is running at full capacity: backed up, up-to-date, and malware-free. The monthly maintenance plan ensures that you are getting the most out of your investment!
-                <br><br>If you prefer to handle your own site maintenance and backups, I also offer support and revisions at my hourly rate.</p>
+                <p>Just like any investment, a beautiful site needs regular maintenance. We want you to get the most out of your site and the easiest way to do that is through our full maintenance and support services. This is the way to guarantee that your site is running at full capacity: backed up, up-to-date, and malware-free.</p>
               </div>
 
       </div> <!-- .about -->

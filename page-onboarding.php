@@ -29,11 +29,11 @@ get_header();
           <h2 class="text-shadow underline">Welcome</h2>
           <p>Thanks a bunch for getting in touch. Below you’ll find more information on working together, including:</p>
 
-                <p>- A detailed look at my design process
+                <p>- A detailed look at the design process
                 <br>- Pricing & packages
                 <br>- How we will communicate during the project
                 <br>- Timelines
-                <br>- What I’ll need from you before the project begins
+                <br>- What we’ll need from you before the project begins
                 <br>- Frequently asked questions
             <br>
             <br>After you’ve had a look, <a href="https://calendly.com/lizziemariew/30min/06-11-2018" target="_blank" style="color: #B66E60;"> head this way to schedule a free design consultation.</a></p>

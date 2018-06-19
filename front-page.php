@@ -27,13 +27,13 @@ get_header();
           </div>
 
           <div id="scroll-triangle">
-            <img src="<?php echo get_template_directory_uri(); ?>/img/scroll-triangle.png" alt="keep scrolling" height="40">
+            <a href="#studio-about"> <img src="<?php echo get_template_directory_uri(); ?>/img/scroll-triangle.png" alt="keep scrolling" height="40"> </a>
           </div>
 
         </div> <!-- .intro-section -->
 
         <div class="about-section">
-          <div class="studio-about">
+          <div class="studio-about" id="studio-about">
             <div class="studio-about-item-1">
               <img src="<?php echo get_template_directory_uri(); ?>/img/ipad-bonvoyage-mockup.png" alt="ipad with bon voyage website">
             </div>
@@ -45,7 +45,7 @@ get_header();
             <div class="studio-about-item-2">
               <h2 class="text-shadow underline">It's time<br></h2>
               <h2 id="no-mt" class="text-shadow underline">to shine</h2>
-              <h3>Design for <em>your</em> business</h3>
+              <h3>Design for your business</h3>
             </div>
 
 						<div class="studio-about-item-4">
@@ -63,9 +63,9 @@ get_header();
             <div class="studio-about-item-5">
               <h3>Let's build your dream site</h3>
               <h6>Brand & Website</h6>
-              <p>A stunning website is the cornerstone to any thriving idea and together we will design and build one that you’re finally proud of!
+              <p>A stunning website is the cornerstone to any thriving idea and together we will design and build one that you’re proud of!
 							<br>
-							<br>We will be creative partners in developing stylish and unique branding and a beautiful website that helps you achieve your business goals.  Using your vision as the framework I will lead us through each step to a successful launch!</p>
+							<br>We will be creative partners in developing stylish and unique branding and a beautiful website that helps you achieve your business goals.  Using your vision as the framework we will work through each step to a successful launch!</p>
             </div>
 
             <div class="studio-about-item-6">
@@ -95,7 +95,7 @@ get_header();
 	                  <h3>Inquiry</h3>
 	                </div>
 	                <div class="hiw-i-3">
-	                  <p>let’s talk shop! tell me about your business. what are your goals?</p>
+	                  <p>let’s talk shop! tell us about your business. what are your goals?</p>
 	                </div>
 	              </li>
 
@@ -119,7 +119,7 @@ get_header();
 	                  <h3>Design</h3>
 	                </div>
 	                <div class="hiw-i-3">
-	                  <p>i’ll jump into creating moodboards and design concepts for your review.</p>
+	                  <p>we'll jump into creating moodboards and design concepts for your review.</p>
 	                </div>
 	              </li>
 
@@ -143,7 +143,7 @@ get_header();
 	                  <h3>Revise, Test, Launch</h3>
 	                </div>
 	                <div class="hiw-i-3">
-	                  <p>demo site is reviewed by you, tested by me, and launched.</p>
+	                  <p>demo site is reviewed by you, tested by us, and launched.</p>
 	                </div>
 	              </li>
 
@@ -183,13 +183,13 @@ get_header();
             <div class="value-item-1 value-item">
                 <img src="<?php echo get_template_directory_uri(); ?>/img/value-1.png" alt="One Stop Shop for design and development">
                 <h3>One-Stop Shop</h3>
-                <p>As a designer and developer I will take your website from the vision board to launch party so you can focus on your business to do list.</p>
+                <p>As a design and development studio, we will take your website from the vision board to launch party so you can focus on your business to do list.</p>
             </div>
 
             <div class="value-item-2 value-item">
                 <img src="<?php echo get_template_directory_uri(); ?>/img/value-2.png" alt="Hassel Free Branding and Website Design">
                 <h3>Hassel Free</h3>
-                <p>Through a clear step by step process, I take the technical trickiness out of designing, building and launching a website.</p>
+                <p>Through a clear step by step process, we take the technical trickiness out of designing, building and launching a website.</p>
             </div>
 
             <div class="value-item-3 value-item">

@@ -29,7 +29,7 @@ get_header();
                 <h3>YOUR DREAM BRAND & WEBSITE</h3>
                 <h2 class="text-shadow underline">It's time<br></h2>
                 <h2 id="no-mt" class="text-shadow underline">to shine</h2>
-                <p>Take your business to the next level with fresh new branding and a custom website that attracts your target audience, increases conversion rates and sends your traffic through the roof. With full site design, installation and support, we will be creative partners in breathing life into your vision.</p>
+                <p>Take your business to the next level with fresh new branding and a custom website that attracts your target audience, converts more users to customers and takes you to where you dream of being. With full branding & site design, installation and support, we will be creative partners in breathing life into your vision.</p>
               </div>
 
       </div> <!-- .about -->
@@ -88,7 +88,7 @@ get_header();
   	                  <h3>Inquiry</h3>
   	                </div>
   	                <div class="process-i-3">
-  	                  <p>Fill out the <a href="#gs-faq-section" style="color: #3b3331; text-decoration: none;"><strong><em>contact form</strong></em></a> below so we can jump on a call to discuss your project. I’ll ask some introductory questions to get a feel for your specific project needs and your schedule. I’ll also send over some information to walk you through the design and development process.</p>
+  	                  <p>Fill out the <a href="#gs-faq-section" style="color: #3b3331; text-decoration: none;"><strong><em>contact form</strong></em></a> below so we can jump on a call to discuss your project. We’ll ask some introductory questions to get a feel for your specific project needs and your schedule. We’ll also send over some information to walk you through the design and development process.</p>
   	                </div>
   	              </li>
 
@@ -112,7 +112,7 @@ get_header();
   	                  <h3>Design</h3>
   	                </div>
   	                <div class="process-i-3">
-  	                  <p>This is the part where you sit back and relax, and I dive in! Using your questionnaire and image board, I’ll develop a creative moodboard to inform and inspire the future design of your site. With your approval, I will then begin developing design concepts. We will then discuss the initial designs and work together to refine and perfect the designs through two rounds of alloted revisions.</p>
+  	                  <p>This is the part where you sit back and relax, and we dive in! Using your questionnaire and image board, we’ll develop a creative moodboard to inform and inspire the future design of your site. With your approval, we will then begin developing design concepts. Next we'll discuss the initial designs and work together to refine and perfect the designs through two rounds of alloted revisions.</p>
   	                </div>
   	              </li>
 
@@ -124,7 +124,7 @@ get_header();
   	                  <h3>Development</h3>
   	                </div>
   	                <div class="process-i-3">
-  	                  <p>With final polished design files, I’ll begin developing your site via a demo site (this will keep your current site running uninterrupted until launch). I’ll also review the site for proof corrections and design detail perfection before you review for a final approval.</p>
+  	                  <p>With final polished design files, we’ll begin developing your site via a demo site (this will keep your current site running uninterrupted until launch). We’ll also review the site for proof corrections and design detail perfection before you review for a final approval.</p>
   	                </div>
   	              </li>
 
@@ -136,7 +136,7 @@ get_header();
   	                  <h3>Revise, Test, Launch</h3>
   	                </div>
   	                <div class="process-i-3">
-  	                  <p>At this step you will test the site as if it were live: click around, check it out on different devices, offer feedback, ask questions, and prepare for your new site. After your demo site is finalized we will decide on a date for installation. Once the install is complete, I’ll walk you through your new site via video and show you how to use it and make changes.</p>
+  	                  <p>At this step you will test the site as if it were live: click around, check it out on different devices, offer feedback, ask questions, and prepare for your new site. After your demo site is finalized we will decide on a date for installation. Once the install is complete, we’ll walk you through your new site via video and show you how to use it and make changes.</p>
   	                </div>
   	              </li>
 
@@ -148,7 +148,7 @@ get_header();
   	                  <h3>Post Launch Support</h3>
   	                </div>
   	                <div class="process-i-3">
-  	                  <p>I want you to get the most out of your site and the easiest way to do that is through my full monthly maintenance and support services. This is the way to guarantee that your site is running at full capacity: backed up, up-to-date, and malware-free. Taking this next step ensures that you are getting the most out of your investment!</p>
+  	                  <p>We want you to get the most out of your site and the easiest way to do that is through our full monthly maintenance and support services. This is the way to guarantee that your site is running at full capacity: backed up, up-to-date, and malware-free. Taking this next step ensures that you are getting the most out of your investment!</p>
   	                </div>
   	              </li>
 

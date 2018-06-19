@@ -27,7 +27,7 @@ get_header();
         <div class="about-item-2">
           <h3>Tutorials & Resources</h3>
           <h2 class="text-shadow underline">Client Library</h2>
-          <p>Below I have curated a list of resources for you to move forward with your website and brand. </p>
+          <p>Below we have curated a list of resources for you to move forward with your website and brand. </p>
         </div>
 
 

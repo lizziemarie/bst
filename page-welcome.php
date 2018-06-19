@@ -27,7 +27,7 @@ get_header();
         <div class="about-item-2">
           <h3>Welcome!</h3>
           <h2 class="text-shadow underline">Time to shine</h2>
-          <p>I’m so excited to get started on your project! In the meantime please take a look at the information below that will give us a running start.</p>
+          <p>We are so excited to get started on your project! In the meantime please take a look at the information below that will give us a running start.</p>
         </div>
 
 
