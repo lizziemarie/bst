@@ -58,7 +58,7 @@
 			    but hey, it's pure CSS magic.
 			    -->
 			    <ul id="menu">
-			      <a style="text-decoration:none;"href="/bandana-studio/case-studies/"><li>Work</li></a>
+			      <a style="text-decoration:none;"href="/bandana-studio/work/"><li>Work</li></a>
 			      <a style="text-decoration:none;"href="/bandana-studio/about/"><li>Info</li></a>
 			      <a style="text-decoration:none;"href="/bandana-studio/contact/"><li>Contact</li></a>
 			      <a style="text-decoration:none;"href="/bandana-studio/startdesign/"><li>Get Started</li></a>
@@ -96,7 +96,7 @@
 				    but hey, it's pure CSS magic.
 				    -->
 				    <ul id="menu">
-				      <a style="text-decoration:none;"href="/bandana-studio/case-studies/"><li>Work</li></a>
+				      <a style="text-decoration:none;"href="/bandana-studio/work/"><li>Work</li></a>
 				      <a style="text-decoration:none;"href="/bandana-studio/about/"><li>Info</li></a>
 				      <a style="text-decoration:none;"href="/bandana-studio/contact/"><li>Contact</li></a>
 				      <a style="text-decoration:none;"href="/bandana-studio/startdesign/"><li>Get Started</li></a>
@@ -109,7 +109,7 @@
 
 				<!--FP TOPNAV-->
 				<div class="fp-topnav" id="fp-my-topnav">
-				  <a style="text-decoration:none;" href="/bandana-studio/case-studies/" id="lg-m1">Work</a>
+				  <a style="text-decoration:none;" href="/bandana-studio/work/" id="lg-m1">Work</a>
 				  <a style="text-decoration:none;" href="/bandana-studio/about/" id="lg-m2">Info</a>
 					<a style="text-decoration:none;" href="/bandana-studio/" id="lg-bs-logo" class="active">Bandana Studio</a>
 				  <a style="text-decoration:none;" href="/bandana-studio/contact/" id="lg-m3">Contact</a>

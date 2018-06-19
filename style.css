@@ -1585,7 +1585,7 @@ a.pill.btn-dark:visited {
 			grid-column: 2/3;
 			text-align: center;
 		}
-		#nf-form-2-cont {
+		.contact-us {
 			grid-column: 2/3;
 			padding-top: 36px;
 			padding-bottom: 36px;
@@ -2625,7 +2625,7 @@ h1 {
 	grid-column-gap: 2vw;
 }
 		.gs-faq p {
-			font-size: 1em;
+			font-size: .9em;
 		}
 /* Tablet GS Design Page: GS Contact */
 .gs-contact {
@@ -3065,6 +3065,9 @@ h6 {
 	grid-template-columns: auto repeat(3, minmax(300px,350px)) auto;
 	grid-row-gap: 2vw;
 	grid-column-gap: 2vw;
+}
+.gs-faq p {
+	font-size: 1em;
 }
 /* Desktop Get Started Styles: GS Contact*/
 .gs-contact {

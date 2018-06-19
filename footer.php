@@ -30,7 +30,7 @@
 					<h3>Services</h3>
 					<ul>
 						<li>
-							<a href="/bandana-studio/case-studies/">Work</a>
+							<a href="/bandana-studio/work/">Work</a>
 						</li>
 						<li>
 							<a href="/bandana-studio/startdesign/">Design & Branding</a>
@@ -65,22 +65,22 @@
 		</div>
 		<div id="footer-social">
 			<div class="f-s-i">
-					<a href="#">
+					<a href="https://www.facebook.com/Bandana-Studio-439650839830941/?view_public_for=439650839830941">
 						<img src="<?php echo get_template_directory_uri(); ?>/img/fb-bs.png" alt="Facebook Link">
 					</a>
 			</div>
 			<div class="f-s-i">
-					<a href="#">
+					<a href="https://www.instagram.com/bandanastudio/?hl=en">
 						<img src="<?php echo get_template_directory_uri(); ?>/img/ig-bs.png" alt="Instagram Link">
 					</a>
 			</div>
 			<div class="f-s-i">
-					<a href="#">
+					<a href="https://www.pinterest.com/bandanastudio/">
 						<img src="<?php echo get_template_directory_uri(); ?>/img/p-bs.png" alt="Pinterest Link">
 					</a>
 			</div>
 			<div class="f-s-i">
-					<a href="#">
+					<a href="https://dribbble.com/bandanastudio">
 						<img src="<?php echo get_template_directory_uri(); ?>/img/dr-bs.png" alt="Dribbble Link">
 					</a>
 			</div>
