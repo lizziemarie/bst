@@ -1,6 +1,6 @@
 <?php
 /**
- * The template for displaying the about page
+ * The template for displaying the single work page
  *
  *
  * Please note that this is the WordPress construct of pages
@@ -48,7 +48,7 @@ get_header();
 
                   <div class="view-work-button">
                     <p>
-                      <a class="btn pill" href="<?php echo site_url('/work/') ?>">view all work</a>
+                      <a class="btn pill" href="<?php echo site_url('/case-studies/') ?>">view all work</a>
                     </p>
                   </div> <!-- .view-work-button -->
         </article>

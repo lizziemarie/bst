@@ -171,7 +171,7 @@ if ( defined( 'JETPACK__VERSION' ) ) {
             ),
             'public' => true,
             'has_archive' => true,
-            'rewrite' => array( 'slug' => 'work' ),
+            'rewrite' => array( 'slug' => 'case-studies' ),
         )
     );
 		register_post_type( 'reviews',
