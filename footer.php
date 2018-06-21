@@ -65,22 +65,22 @@
 		</div>
 		<div id="footer-social">
 			<div class="f-s-i">
-					<a href="https://www.facebook.com/Bandana-Studio-439650839830941/?view_public_for=439650839830941">
+					<a href="https://www.facebook.com/Bandana-Studio-439650839830941/?view_public_for=439650839830941" target="_blank">
 						<img src="<?php echo get_template_directory_uri(); ?>/img/fb-bs.png" alt="Facebook Link">
 					</a>
 			</div>
 			<div class="f-s-i">
-					<a href="https://www.instagram.com/bandanastudio/?hl=en">
+					<a href="https://www.instagram.com/bandanastudio/?hl=en" target="_blank">
 						<img src="<?php echo get_template_directory_uri(); ?>/img/ig-bs.png" alt="Instagram Link">
 					</a>
 			</div>
 			<div class="f-s-i">
-					<a href="https://www.pinterest.com/bandanastudio/">
+					<a href="https://www.pinterest.com/bandanastudio/" target="_blank">
 						<img src="<?php echo get_template_directory_uri(); ?>/img/p-bs.png" alt="Pinterest Link">
 					</a>
 			</div>
 			<div class="f-s-i">
-					<a href="https://dribbble.com/bandanastudio">
+					<a href="https://dribbble.com/bandanastudio" target="_blank">
 						<img src="<?php echo get_template_directory_uri(); ?>/img/dr-bs.png" alt="Dribbble Link">
 					</a>
 			</div>

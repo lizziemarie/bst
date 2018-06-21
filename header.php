@@ -103,7 +103,7 @@
 				    </ul>
 	  		</div>
 				<div id="sm-bs-logo">
-					<a style="text-decoration:none;" href="/bandana-studio/">Bandana Studio</a>
+					<a style="text-decoration:none;" href="<?php echo get_home_url(); ?>">Bandana Studio</a>
 				</div>
 
 
@@ -111,7 +111,7 @@
 				<div class="fp-topnav" id="fp-my-topnav">
 				  <a style="text-decoration:none;" href="/bandana-studio/work/" id="lg-m1">Work</a>
 				  <a style="text-decoration:none;" href="/bandana-studio/about/" id="lg-m2">Info</a>
-					<a style="text-decoration:none;" href="/bandana-studio/" id="lg-bs-logo" class="active">Bandana Studio</a>
+					<a style="text-decoration:none;" href="<?php echo get_home_url(); ?>" id="lg-bs-logo" class="active">Bandana Studio</a>
 				  <a style="text-decoration:none;" href="/bandana-studio/contact/" id="lg-m3">Contact</a>
 				  <a style="text-decoration:none;" href="/bandana-studio/startdesign/" id="lg-m4">Get Started</a>
 				</div>

@@ -48,7 +48,7 @@ get_header();
 
                   <div class="view-work-button">
                     <p>
-                      <a class="btn pill" href="/bandana-studio/case-studies">view all work</a>
+                      <a class="btn pill" href="/bandana-studio/work/">view all work</a>
                     </p>
                   </div> <!-- .view-work-button -->
         </article>

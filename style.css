@@ -3018,7 +3018,7 @@ h6 {
 /* Desktop Get Started Styles: GS Included*/
 .gs-included {
 	grid-template-columns: auto repeat(12, minmax(80px, 100px)) auto;
-	grid-template-rows: 60px repeat(2,auto) 60px;
+	grid-template-rows: 60px auto 60px;
 }
 		.gs-included-item-a {
 			grid-column: 3/6;
