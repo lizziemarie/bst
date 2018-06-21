@@ -71,7 +71,7 @@ get_header();
                 </ul>
 								<p>
 									<br>
-                  <a class="btn pill" href="/bandana-studio/work/">view all work</a>
+                  <a class="btn pill" href="<?php echo site_url('/work/') ?>">view all work</a>
                 </p>
               </div>
 

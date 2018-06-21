@@ -30,7 +30,7 @@
 					<h3>Services</h3>
 					<ul>
 						<li>
-							<a href="/bandana-studio/work/">Work</a>
+							<a href="<?php echo site_url('/work/') ?>">Work</a>
 						</li>
 						<li>
 							<a href="/bandana-studio/startdesign/">Design & Branding</a>
