@@ -951,6 +951,9 @@ a:hover, a:active {
 			top: 50px;
 			left: 50px;
 		}
+		.navigation-other {
+			grid-template-rows: 60px auto 30px;
+		}
 	}
 
 
