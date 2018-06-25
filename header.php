@@ -20,6 +20,18 @@
 	<link href="https://fonts.googleapis.com/css?family=Lato:300,400,400i,700,900|Playfair+Display:400,400i,700" rel="stylesheet">
 	<link href="https://fonts.googleapis.com/css?family=Roboto:900" rel="stylesheet">
 
+	<!--animate links-->
+	<link rel="stylesheet"
+  href="https://cdn.jsdelivr.net/npm/animate.css@3.5.2/animate.min.css"
+  integrity="sha384-OHBBOqpYHNsIqQy8hL1U+8OXf9hH6QRxi0+EODezv82DfnZoV7qoHAZDwMwEJvSw"
+  crossorigin="anonymous">
+  <!-- or -->
+  <link rel="stylesheet"
+  href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css"
+  integrity="sha384-OHBBOqpYHNsIqQy8hL1U+8OXf9hH6QRxi0+EODezv82DfnZoV7qoHAZDwMwEJvSw"
+  crossorigin="anonymous">
+
+
 	<?php wp_head(); ?>
 </head>
 
@@ -29,99 +41,123 @@
 
 	<header id="masthead" class="site-header">
 
-		<!-- NEW HEADER  -->
-		<!-- First if is for homepage/frontpage ham nav-->
+		<!-- Front Page Header -->
 
-		<?php
+<?php
 		if ( is_home() || is_front_page() ) :
-			 ?>
-		<nav role="navigation" class="navigation-front">
-  		<div id="menuToggle">
-			    <!--
-			    A fake / hidden checkbox is used as click reciever,
-			    so you can use the :checked selector on it.
-			    -->
-			    <input type="checkbox" />
+?>
+		<input class="full-chk" id="full-menu" type="checkbox" />
 
-			    <!--
-			    Some spans to act as a hamburger.
-			    -->
-			  	<span></span>
-			    <span></span>
+		<label class="full-cntr" for="full-menu">
+			<span class="full-span"></span>
+			<span class="full-span"></span>
+			<span class="full-span"></span>
+		</label>
 
-					<a href="#">
-						<img class="front-ham-nav" src="<?php echo get_template_directory_uri(); ?>/img/light-ham-nav.png" alt="Nav Menu">
-					</a>
 
-			    <!--
-			    Too bad the menu has to be inside of the button
-			    but hey, it's pure CSS magic.
-			    -->
-			    <ul id="menu">
-			      <a style="text-decoration:none;"href="<?php echo site_url('/case-studies/') ?>"><li>Work</li></a>
-			      <a style="text-decoration:none;"href="/bandana-studio/about/"><li>Info</li></a>
-			      <a style="text-decoration:none;"href="/bandana-studio/contact/"><li>Contact</li></a>
-			      <a style="text-decoration:none;"href="/bandana-studio/startdesign/"><li>Get Started</li></a>
-			    </ul>
-  		</div>
+		<nav class="full-nav">
+			<ul class="full-nav-ul">
+				<section class="full-nav-cntr">
+					<li>
+						<p class="full-nav-p">
+							<a class="full-nav-a" href="<?php echo site_url('/case-studies/') ?>">
+								<span class="full-nav-hltd">Work</span>
+							</a>
+						</p>
+					</li>
+					<li>
+						<p class="full-nav-p">
+							<a class="full-nav-a" href="/bandana-studio/about/">
+								<span class="full-nav-hltd">Info</span>
+							</a>
+						</p>
+					</li>
+					<li>
+						<p class="full-nav-p">
+							<a class="full-nav-a" href="/bandana-studio/contact/">
+								<span class="full-nav-hltd">Contact</span>
+							</a>
+						</p>
+					</li>
+					<li>
+						<p class="full-nav-p">
+							<a class="full-nav-a" href="/bandana-studio/startdesign/">
+								<span class="full-nav-hltd">Get Started</span>
+							</a>
+						</p>
+					</li>
+				</section>
+			</ul>
 		</nav>
 
+<?php else : ?>
 
-			<?php
-		else :
-			?>
+<div class="navigation-other">
 
-			<!--Else is for all other pages with ham nav and site name or site name and full menu on bigger screens-->
+<div id="menuToggle-other">
 
-			<nav role="navigation" class="navigation-other">
-	  			<div id="menuToggle-other">
-				    <!--
-				    A fake / hidden checkbox is used as click reciever,
-				    so you can use the :checked selector on it.
-				    -->
-				    <input type="checkbox" />
+	<input class="full-chk" id="full-menu" type="checkbox" />
 
-				    <!--
-				    Some spans to act as a hamburger.
-				    -->
-				  	<span></span>
-				    <span></span>
+	<label class="full-cntr" for="full-menu">
+		<span class="full-span"></span>
+		<span class="full-span"></span>
+		<span class="full-span"></span>
+	</label>
 
-						<a href="#">
-							<img src="<?php echo get_template_directory_uri(); ?>/img/dark-ham-nav.png" alt="Nav Menu">
+
+	<nav class="full-nav">
+		<ul class="full-nav-ul">
+			<section class="full-nav-cntr">
+				<li>
+					<p class="full-nav-p">
+						<a class="full-nav-a" href="<?php echo site_url('/case-studies/') ?>">
+							<span class="full-nav-hltd">Work</span>
 						</a>
+					</p>
+				</li>
+				<li>
+					<p class="full-nav-p">
+						<a class="full-nav-a" href="/bandana-studio/about/">
+							<span class="full-nav-hltd">Info</span>
+						</a>
+					</p>
+				</li>
+				<li>
+					<p class="full-nav-p">
+						<a class="full-nav-a" href="/bandana-studio/contact/">
+							<span class="full-nav-hltd">Contact</span>
+						</a>
+					</p>
+				</li>
+				<li>
+					<p class="full-nav-p">
+						<a class="full-nav-a" href="/bandana-studio/startdesign/">
+							<span class="full-nav-hltd">Get Started</span>
+						</a>
+					</p>
+				</li>
+			</section>
+		</ul>
+	</nav>
+</div>
 
-				    <!--
-				    Too bad the menu has to be inside of the button
-				    but hey, it's pure CSS magic.
-				    -->
-				    <ul id="menu">
-				      <a style="text-decoration:none;"href="<?php echo site_url('/case-studies/') ?>"><li>Work</li></a>
-				      <a style="text-decoration:none;"href="/bandana-studio/about/"><li>Info</li></a>
-				      <a style="text-decoration:none;"href="/bandana-studio/contact/"><li>Contact</li></a>
-				      <a style="text-decoration:none;"href="/bandana-studio/startdesign/"><li>Get Started</li></a>
-				    </ul>
-	  		</div>
-				<div id="sm-bs-logo">
-					<a style="text-decoration:none;" href="<?php echo get_home_url(); ?>">Bandana Studio</a>
-				</div>
+	<div id="sm-bs-logo">
+		<a style="text-decoration:none;" href="<?php echo get_home_url(); ?>">Bandana Studio</a>
+	</div>
 
 
-				<!--FP TOPNAV-->
-				<div class="fp-topnav" id="fp-my-topnav">
-				  <a style="text-decoration:none;" href="<?php echo site_url('/case-studies/') ?>" id="lg-m1">Work</a>
-				  <a style="text-decoration:none;" href="/bandana-studio/about/" id="lg-m2">Info</a>
-					<a style="text-decoration:none;" href="<?php echo get_home_url(); ?>" id="lg-bs-logo" class="active">Bandana Studio</a>
-				  <a style="text-decoration:none;" href="/bandana-studio/contact/" id="lg-m3">Contact</a>
-				  <a style="text-decoration:none;" href="/bandana-studio/startdesign/" id="lg-m4">Get Started</a>
-				</div>
+	<!--Desktop and Tablet TOPNAV-->
+	<div class="fp-topnav" id="fp-my-topnav">
+		<a style="text-decoration:none;" href="<?php echo site_url('/case-studies/') ?>" id="lg-m1">Work</a>
+		<a style="text-decoration:none;" href="/bandana-studio/about/" id="lg-m2">Info</a>
+		<a style="text-decoration:none;" href="<?php echo get_home_url(); ?>" id="lg-bs-logo" class="active">Bandana Studio</a>
+		<a style="text-decoration:none;" href="/bandana-studio/contact/" id="lg-m3">Contact</a>
+		<a style="text-decoration:none;" href="/bandana-studio/startdesign/" id="lg-m4">Get Started</a>
+	</div>
 
-		</nav>
+</div> <!-- .navigation-other -->
 
-
-		<?php endif; ?>
-
-
+<?php endif; ?>
 
 	</header><!-- #masthead -->
 

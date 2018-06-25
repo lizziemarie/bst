@@ -23,10 +23,12 @@ get_header();
             <h1>Bandana Studio</h1>
             <p>a design and web development studio for creative entrepreneurs</p>
 						<p id="intro-hide">let's build the website of your dreams</p>
-            <h4>Welcome</h4>
+						<p>
+								<a class="hero-button btn-hero pill" href="/bandana-studio/startdesign/">get started</a>
+						</p>
           </div>
 
-          <div id="scroll-triangle">
+          <div id="scroll-triangle" class="animated infinite pulse">
             <a href="#studio-about"> <img src="<?php echo get_template_directory_uri(); ?>/img/scroll-triangle.png" alt="keep scrolling" height="40"> </a>
           </div>
 
@@ -70,7 +72,7 @@ get_header();
 
             <div class="studio-about-item-6">
               <p>
-                <a class="btn pill" href="/bandana-studio/startdesign/">get started</a>
+                <a class="btn pill animated infinite pulse" href="/bandana-studio/startdesign/">get started</a>
               </p>
             </div>
 
@@ -188,7 +190,7 @@ get_header();
 
             <div class="value-item-2 value-item">
                 <img src="<?php echo get_template_directory_uri(); ?>/img/value-2.png" alt="Hassel Free Branding and Website Design">
-                <h3>Hassel Free</h3>
+                <h3>Hassle Free</h3>
                 <p>Through a clear step by step process, we take the technical trickiness out of designing, building and launching a website.</p>
             </div>
 
@@ -261,7 +263,7 @@ get_header();
 
             <div class="grid-button">
               <p>
-                <a class="pill btn" href="/bandana-studio/startdesign">get started</a>
+                <a class="pill btn animated infinite pulse" href="/bandana-studio/startdesign">get started</a>
               </p>
             </div>
 
